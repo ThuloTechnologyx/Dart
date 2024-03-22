@@ -55,6 +55,3 @@ In this program, the variable named **global** is a top-level variable; you can 
 ### Lexical Scope
 Dart is lexically scoped language, which means you can find the scope of variables with the help of **braces {}**.
 
-### Video
-Watch our video on scope in Dart.
-{{< youtube g-D6V3-wbBE >}}
