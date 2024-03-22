@@ -70,8 +70,3 @@ Enter a floating number:
 The entered num is 55.5
 ````
 {{% /expand %}}
-### Video
-Watch our video on the user input in Dart.
-{{< youtube 4Y0OrFSjCEg >}}
-
-[![targets](/images/pieces/powertip-banner.png)](https://pieces.app/?utm_source=dart-tutorial&utm_medium=banner&utm_campaign=dart-tutorial-website&utm_content=powertip)``
