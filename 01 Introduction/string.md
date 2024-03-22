@@ -305,7 +305,3 @@ Capitalized first letter of String: Hello world
 ```
 {{% /expand %}}
 {{% button href="https://dartpad.dev/?id=b35aec750e198f194c863c1ddf76de2e" style="blue" %}}Run Online{{% /button %}}
-
-### Video
-Watch our video on string in Dart.
-{{< youtube DwDWpXTduXE >}}
