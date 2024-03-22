@@ -56,7 +56,3 @@ dart --enable-asserts file_name.dart
 {{% notice info %}}
 **Note**: The **assert(condition)** method only runs in development mode. It will throw an exception only when the condition is false. If the condition is true, nothing happens. Production code ignores it.
 {{% /notice %}}
-
-### Video
-Watch our video on the assert in Dart.
-{{< youtube uU_XDca5768 >}}
