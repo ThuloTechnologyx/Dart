@@ -239,7 +239,3 @@ void main() {
 ````
 {{% /expand %}}
 {{% button href="https://dartpad.dev/?id=944e1124eb240d663f8a81b6aa50ad6b" style="blue" %}}Run Online{{% /button %}}
-
-### Video
-Watch our video on the set in Dart.
-{{< youtube s9BwdIaUnnM >}}
