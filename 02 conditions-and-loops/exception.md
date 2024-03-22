@@ -225,7 +225,3 @@ Oops, Negative Number: Sqauare root of negative number is not allowed here.
 Job Completed!
 ````
 {{% /expand %}}
-
-### Video
-Watch our video on exception handling in Dart.
-{{< youtube bTCs2MJakEI >}}
