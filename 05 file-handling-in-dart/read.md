@@ -161,7 +161,3 @@ Welcome to test.txt file.
 This is a test file.
 ````
 {{% /expand %}}
-
-### Video
-Watch our video on file reading in Dart.
-{{< youtube tFFml2Bx5uw >}}
