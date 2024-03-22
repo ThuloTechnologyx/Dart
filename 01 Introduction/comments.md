@@ -68,6 +68,3 @@ Welcome to Technology Channel.
 {{% /expand %}}
 {{% button href="https://dartpad.dev/?id=5b319f342606afa2ccff957cb2b4ee0d" style="blue" %}}Run Online{{% /button %}}
 
-### Video
-Watch our video on Dart comments.
-{{< youtube LQGNGaNvMfY >}}
