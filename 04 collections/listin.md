@@ -570,6 +570,3 @@ print(even);
 **Note**: Choose Lists if order matters. You can easily add items to the end. Searching can be slow when the List size is big.
 {{% /notice %}}
 
-### Video
-Watch our video on the list in Dart.
-{{< youtube sAWPh3Hzdvs >}}
