@@ -493,10 +493,3 @@ void main() {
 ````plaintext
 Hello
 ````
-{{% /expand %}}
-{{% button href="https://dartpad.dev/?id=b56c00badb6eb97738776091504aa019" style="blue" %}}Run Online{{% /button %}}
-
-{{% notice info %}}
-Note: Using static type helps you to prevent writing silly mistakes in code. It's a good habit to use static type in dart.
-{{% /notice %}}
-
