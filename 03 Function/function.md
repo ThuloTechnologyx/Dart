@@ -132,7 +132,3 @@ void main(){
 {{% notice info %}}
 **Note**: In dart, if you don't write the return type of function. It will automatically understand.
 {{% /notice %}}
-
-### Video
-Watch our video on functions in Dart.
-{{< youtube Vex0Mr8SxIc >}}
