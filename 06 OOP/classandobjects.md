@@ -134,7 +134,3 @@ Simple Interest is 200.
 
 ### Challenge
 Create class Home with properties **name**, **address**, **numberOfRooms**. Create a method called **display** which prints out the values of the properties. Create an object of the class **Home** and set the values of the properties. Call the method **display** to print out the values of the properties.
-
-### Video
-Watch our video on class and object in Dart.
-{{< youtube DW_dizcfPIw >}}
