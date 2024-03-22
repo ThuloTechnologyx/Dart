@@ -85,6 +85,3 @@ What if you want to print your name 1000 times? Without using a loop, it will be
 ### What After Now?
 Move to a new section to understand each loop clearly.
 
-### Video
-Watch our video on loop in Dart.
-{{< youtube 2BH3BBZJSqg >}}
