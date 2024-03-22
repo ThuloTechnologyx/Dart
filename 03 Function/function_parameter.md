@@ -179,7 +179,3 @@ Hello Ms. Kavya your gender is Female.
 ````
 {{% /expand %}}
 {{% button href="https://dartpad.dev/?id=f0ddca7f46b3d642394eb0d5e96e8606" style="blue" %}}Run Online{{% /button %}}
-
-### Video
-Watch our video on functions parameter in Dart.
-{{< youtube sFCpoMOdSDE >}}
