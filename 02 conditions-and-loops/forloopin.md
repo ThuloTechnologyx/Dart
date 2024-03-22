@@ -176,8 +176,3 @@ void main() {
 {{% notice info %}}
 **Note**: Infinite loops take your computer resources continuously, use more power, and slow your computer. So always check your loop before use.
 {{% /notice %}}
-
-
-### Video
-Watch our video on for loop in Dart.
-{{< youtube WVhdUbp5a4k >}}
