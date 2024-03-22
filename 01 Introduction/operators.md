@@ -253,8 +253,3 @@ false
 ````
 {{% /expand %}}
 {{% button href="https://dartpad.dev/?id=c2fe395e2e8ce4da7ececa4004f54924" style="blue" %}}Run Online{{% /button %}}
-
-
-### Video
-Watch our video on the operators in Dart.
-{{< youtube goVXVFvvzvE >}}
