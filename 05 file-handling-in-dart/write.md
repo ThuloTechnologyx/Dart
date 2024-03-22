@@ -111,7 +111,3 @@ Elon,0122112322
 {{% notice info %}}
 **Note**: You can create any type of file using **writeAsStringSync()** method. For example, **.html**, **.json**, **.xml**, etc.
 {{% /notice %}}
-
-### Video
-Watch our video on file write in Dart.
-{{< youtube MQkJ4_2If0U >}}
