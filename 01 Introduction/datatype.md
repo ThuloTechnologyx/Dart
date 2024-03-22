@@ -53,7 +53,7 @@ print("Sum is $sum");
    
 }
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=ac404e915a)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
@@ -76,7 +76,7 @@ double prize = 1130.2232323233233; // valid.
 print(prize.toStringAsFixed(2));
 }
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=2cd249946e)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
@@ -98,7 +98,7 @@ String address = "New York 2140";
 print("School name is $schoolName and address is $address");   
 }
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=7c7c4dba14)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
@@ -132,7 +132,7 @@ print("Other multiline text is $otherMultiLineText");
 }
 
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=94f84180fb)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
@@ -162,7 +162,7 @@ print("I am from \nUS.");
 print("I am from \tUS.");
 }
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=fa814fbb04)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
@@ -188,7 +188,7 @@ print("With Raw: $withRawString"); // with raw result
 
 }
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=c0de48987f)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
@@ -214,7 +214,7 @@ print("Value of intvalue is $intvalue");
 print("Type of intvalue is ${intvalue.runtimeType}");
 }
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=b0134591ee)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
@@ -237,7 +237,7 @@ print("Value of doublevalue is $doublevalue");
 print("Type of doublevalue is ${doublevalue.runtimeType}");
 }
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=78214698b1)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
@@ -259,7 +259,7 @@ print("Value of oneInString is $oneInString");
 print("Type of oneInString is ${oneInString.runtimeType}");
 }
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=6d8f44b9a6)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
@@ -282,7 +282,7 @@ void main() {
   print("The value of num2 is $num2. Its type is ${num2.runtimeType}");
 }
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=c3d54aaa93)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
@@ -308,7 +308,7 @@ bool isMarried = true;
 print("Married Status: $isMarried");
 }
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=bbb1408261)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
@@ -333,7 +333,7 @@ int length = names.length;
 print("The Length of names is $length");
 }
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=32864e92d4)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
@@ -364,7 +364,7 @@ Set<String> weekday = {"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"};
 print(weekday);
 }
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=afda4e88cf)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
@@ -386,7 +386,7 @@ Map<String, String> myDetails = {
 print(myDetails['name']);
 }
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=f2a340ae62)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
@@ -407,7 +407,7 @@ void main(){
  print(age);
 }
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=8c704b9b78)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
@@ -427,7 +427,7 @@ String value = "a";
 print(value.runes);
 }
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=54c94fa182)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
@@ -445,7 +445,7 @@ void main() {
    print(a is int); // true
 }
 ``` 
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=fbe74aabf5)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
@@ -468,7 +468,7 @@ void main() {
    print(myVariable);
 }
 ``` 
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=dcb2438603)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
@@ -487,7 +487,7 @@ void main() {
    print(myVariable);
 }
 ``` 
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=a26f4b9ff4)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
