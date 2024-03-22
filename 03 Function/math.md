@@ -156,7 +156,3 @@ Square root is 5.0
 - **max(num1,num2)** is a function which give the maximum number between num1 and num2.
 - **min(num1,num2)** is a function which give the mininum number between num1 and num2.
 - **sqrt(25)** is a function that gives the square root of 25.
-
-### Video
-Watch our video on math in Dart.
-{{< youtube VcOflqRBR7Y >}}
