@@ -98,8 +98,3 @@ The div is 3.3333333333333335
 {{% /expand %}}
 {{% button href="https://dartpad.dev/?id=7330e7ec5cce424afe8f89ad921c4469" style="blue" %}}Run Online{{% /button %}}
 
-### Video
-Watch our video on arrow functions in Dart.
-{{< youtube YdbWgLQcyrM >}}
-
-[![targets](/images/pieces/powertip-banner.png)](https://pieces.app/?utm_source=dart-tutorial&utm_medium=banner&utm_campaign=dart-tutorial-website&utm_content=powertip)
