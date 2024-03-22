@@ -120,8 +120,3 @@ dart run
 ### Challenge
 Create a new dart project with name **stockmanagement** and then run it.
 
-### Video
-Watch our video on Dart basic program.
-{{< youtube L5hd5US8ijc >}}
-
-[![targets](/images/pieces/powertip-banner.png)](https://pieces.app/?utm_source=dart-tutorial&utm_medium=banner&utm_campaign=dart-tutorial-website&utm_content=powertip)
