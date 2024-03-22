@@ -130,7 +130,3 @@ Hello
 ````
 {{% /expand %}} 
 {{% button href="https://dartpad.dev/?id=25463e567eb5d7b465befd97eb2ebe25" style="blue" %}}Run Online{{% /button %}} 
-
-### Video
-Watch our video on while loop in Dart.
-{{< youtube rYP6R_3CqVE >}}
