@@ -221,7 +221,3 @@ Bank Name: ICICI
 - It can have both abstract and non-abstract methods.
 - It is used to define the behavior of a class that other classes can inherit.
 - Abstract method only has a signature and no implementation.
-
-### Video
-Watch our video on abstract class in Dart.
-{{< youtube 2g8Mn55xJnY>}}
