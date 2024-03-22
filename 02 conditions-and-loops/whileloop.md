@@ -152,7 +152,3 @@ void main(){
 ````
 {{% /expand %}} 
 {{% button href="https://dartpad.dev/?id=053f6df18f066714f0f1d993e0b35e01" style="blue" %}}Run Online{{% /button %}}    
-
-### Video
-Watch our video on while loop in Dart.
-{{< youtube Fve2aCbtv6A >}}
