@@ -278,6 +278,3 @@ Hello World!!!
 
 {{% button href="https://dartpad.dev/?id=f7fe41debf32283aac6a831326aa2e9e" style="blue" %}}Run Online{{% /button %}}  
 
-### Video
-Watch our video on functions types in Dart.
-{{< youtube V6mobcS2gyY >}}
