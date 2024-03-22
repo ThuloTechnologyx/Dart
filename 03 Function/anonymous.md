@@ -62,8 +62,3 @@ The cube of 3 is 27
 ````
 {{% /expand %}}
 {{% button href="https://dartpad.dev/?id=687ef3c989719b79a55638c9dc425712" style="blue" %}}Run Online{{% /button %}}
-
-### Video
-Watch our video on anonymous functions in Dart.
-{{< youtube 3slRffYaHw4 >}}
-
