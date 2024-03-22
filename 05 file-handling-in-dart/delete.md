@@ -60,7 +60,3 @@ void main() {
 File does not exist.
 ````
 {{% /expand %}}
-
-### Video
-Watch our video on file delete in Dart.
-{{< youtube MgbU9m5UXQA >}}
