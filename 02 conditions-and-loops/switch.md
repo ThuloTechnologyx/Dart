@@ -207,7 +207,3 @@ Please bring umbrella.
 ````
 {{% /expand %}} 
 {{% button href="https://dartpad.dev/?id=c93ad2410bf834284d40de28ca5a72ab" style="blue" %}}Run Online{{% /button %}}
-
-### Video
-Watch our video on the switch case in Dart.
-{{< youtube OLo2s1em8_8 >}}
