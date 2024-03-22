@@ -500,6 +500,3 @@ Hello
 Note: Using static type helps you to prevent writing silly mistakes in code. It's a good habit to use static type in dart.
 {{% /notice %}}
 
-### Video
-Watch our video on Dart datatypes.
-{{< youtube y2_YMg816lE >}}
