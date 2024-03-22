@@ -100,9 +100,3 @@ var fullname = "John Doe";
 var fullName = "John Doe";
 const pi = 3.14;
 ```
-### Video
-Watch our video on Dart variables and constants.
-{{< youtube 7svQw0IzQyg >}}
-
-[![targets](/images/pieces/powertip-banner.png)](https://pieces.app/?utm_source=dart-tutorial&utm_medium=banner&utm_campaign=dart-tutorial-website&utm_content=powertip)
-
