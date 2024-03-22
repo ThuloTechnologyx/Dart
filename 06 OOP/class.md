@@ -110,7 +110,3 @@ Create a class **Book** with three properties: **name**, **author**, and **prize
 {{% notice info %}}
 **Note**: In the next section, you will learn how to create an object from a class.
 {{% /notice %}}
-
-### Video
-Watch our video on class in Dart.
-{{< youtube tr310dtujVg >}}
