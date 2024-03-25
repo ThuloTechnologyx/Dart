@@ -201,7 +201,3 @@ v5*p4*o2&c7%k1@
 ## Key Points To Remember
 - Static members are accessed using the class name.
 - All instances of a class share static members.
-
-## Video
-Watch our video on static in Dart.
-{{< youtube NfzBVLK9rGg >}}
