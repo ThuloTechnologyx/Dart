@@ -305,7 +305,3 @@ Average marks: 80.0
 - A class can extend only one class but can implement multiple interfaces.
 - Using the interface, you can achieve multiple inheritance in Dart.
 - It is used to achieve abstraction.
-
-## Video
-Watch our video on interface in Dart.
-{{< youtube cYjINC3naTM >}}
