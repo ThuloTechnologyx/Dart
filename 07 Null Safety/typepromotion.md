@@ -120,9 +120,3 @@ The length of value is 5
 {{% notice info %}}
 **Note:** The output of the above example is random. It can be either **The length of value is 5** or **The value is not string.**
 {{% /notice %}}
-
-
-
-## Video
-Watch our video on the type promotion in Dart.
-{{< youtube WI-PCBewEBo >}}
