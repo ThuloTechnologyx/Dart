@@ -168,6 +168,3 @@ Sole Proprietorship
 ````
 {{% /expand %}}
 
-## Video
-Watch our video on enum in Dart.
-{{< youtube W9peo3BzK_Y >}}
