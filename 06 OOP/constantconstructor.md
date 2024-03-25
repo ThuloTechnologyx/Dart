@@ -130,7 +130,3 @@ Prize: 50000
 
 ## Challenge
 Create a class **Customer** with three properties: **name**, **age**, and **phone**. The class should have one constant constructor. The constructor should initialize the values of the three properties. Create an object of the class **Customer** and print the values of the three properties.
-
-## Video
-Watch our video on constant constructor in Dart.
-{{< youtube xTwjLfMMUxM >}}
