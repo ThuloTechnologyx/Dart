@@ -124,8 +124,3 @@ Balance after withdraw: 500
 - Use getter and setter when you want to perform some action before reading or writing the properties.
 - Use getter and setter when you want to validate the data before reading or writing the properties.
 - Don't use getter and setter when you want to make the properties read-only or write-only.
-
-
-## Video
-Watch our video on getter and setter in Dart.
-{{< youtube h5r8HbkQgJM >}}
