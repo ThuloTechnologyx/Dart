@@ -29,6 +29,3 @@ John
 ````
 {{% /expand %}}
 
-## Watch Video
-Watch this video to learn more about extension in Dart programming language.
-{{< youtube D3j0OSfT9ZI >}}
