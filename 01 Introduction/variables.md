@@ -5,7 +5,7 @@ description = "Variables are containers used to store value in the program. Lear
 keywords = "variables in dart, how to use variables in dart, var in dart, types of variables"
 +++
 
-### Variables
+## Variables
 Variables are containers used to store value in the program. There are different types of variables where you can keep different kinds of values.
 Here is an example of creating a variable and initializing it.
 ```dart
@@ -13,7 +13,7 @@ Here is an example of creating a variable and initializing it.
 var name = "John";
 ```          
 
-### Variable Types
+## Variable Types
 They are called data types. We will learn more about data types later in this dart tutorial.
 
 - **String**: For storing text value. E.g. "John" \[Must be in quotes\]
@@ -23,12 +23,12 @@ They are called data types. We will learn more about data types later in this da
 - **bool**: For storing true or false. E.g. true, false \[Only stores true or false values\]
 - **var**: For storing any value. E.g. 'Bimal', 12, 'z', true
 
-### Syntax
+## Syntax
 ```dart
 type variableName = value;
 
 ```  
-### Example
+## Example
 ```dart
  void main() {
 //Declaring Variables
@@ -61,7 +61,7 @@ Married Status is false
 **Note**: Always use the descriptive variable name. Don’t use a variable name like a, b, c because this will make your code more complex.
 {{% /notice %}}
 
-### Rules For Creating Variables In Dart
+## Rules For Creating Variables In Dart
 
 * Variable names are case sensitive, i.e., a and A are different.
 * A variable name can consist of letters and alphabets.
@@ -71,7 +71,7 @@ Married Status is false
 * Special characters are not allowed except for the underscore (_) and the dollar ($) sign.
 
 
-### Dart Constant
+## Dart Constant
 Constant is the type of variable whose value never changes. In programming, changeable values are **mutable** and unchangeable values are **immutable**. Sometimes, you don’t need to change the value once declared. Like the value of PI=3.14, it never changes. To create a constant in Dart, you can use the const keyword.
 
 ```dart
@@ -89,10 +89,10 @@ Constant variables can't be assigned a value.
 {{% /expand %}}
 {{% button href="https://dartpad.dev/?id=1e3d4c1b325e6f22ad17747a54b452b7" style="blue" %}}Run Online{{% /button %}}
 
-### Naming Convention For Variables In Dart
+## Naming Convention For Variables In Dart
 It is a good habit to follow the naming convention. In Dart Variables, the variable name should start with lower-case, and every second word’s first letter will be upper-case like num1, fullName, isMarried, etc. Technically, this naming convention is called **lowerCamelCase**. 
 
-### Example
+## Example
 ```dart
 // Not standard way
 var fullname = "John Doe";
