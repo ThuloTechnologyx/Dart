@@ -189,7 +189,3 @@ MacBook constructor
 ```
 {{% /expand %}}
 {{% button href="https://dartpad.dev/?id=be8b62849068c4ae5e24cca8dee0bd3b" style="blue" %}}{{% /button %}}
-
-## Video
-Watch our video on inheritance of constructor in Dart.
-{{< youtube 7vwpgQ04k8o >}}
