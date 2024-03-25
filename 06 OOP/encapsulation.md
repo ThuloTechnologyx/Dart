@@ -239,9 +239,3 @@ Toyota
 - **Flexibility**: Encapsulation allows you to change the implementation of the class without affecting the code outside the class.
 
 - **Security**: Encapsulation allows you to restrict access to the class members. It will enable you to limit access to the class members from the code outside the library.
-
-## Video
-Watch our video on encapsulation in Dart.
-{{< youtube QA5fIoULgGM >}}
-
-[![targets](/images/pieces/powertip-banner.png)](https://pieces.app/?utm_source=dart-tutorial&utm_medium=banner&utm_campaign=dart-tutorial-website&utm_content=powertip)
