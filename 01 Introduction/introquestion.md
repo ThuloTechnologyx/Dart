@@ -6,7 +6,7 @@ description = "Practice questions for dart programming language. Solve these que
 keywords = "dart practice questions, dart questions for practice"
 +++
 
-#### Basic Dart Practice Questions
+### Basic Dart Practice Questions
 1. Write a program to print your name in Dart.
 2. Write a program to print **Hello I am "John Doe"** and **Hello I'am "John Doe"** with single and double quotes.
 3. Declare **constant type** of int set value 7.

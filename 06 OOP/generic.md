@@ -5,19 +5,19 @@ description = "In this tutorial, you will learn about dart Generics, how to crea
 keywords = ["generics", "dart", "dart tutorial", "dart generics"]
 +++
 
-### Introduction
+## Introduction
 This tutorial will teach you about dart Generics, how to create generics classes and methods with examples.
 
-### Generics In Dart
+## Generics In Dart
 **Generics** is a way to create a class, or function that can work with different types of data **(objects)**. If you look at the internal implementation of [**List**](/collections/list-in-dart/) class, it is a generic class. It can work with different data types like int, String, double, etc. For example, **List\<int\>** is a list of integers, **List\<String\>** is a list of strings, and **List\<double\>**  is a list of double values.
 
-### Syntax
+## Syntax
 ```dart
 class ClassName<T> {
   // code
 }
 ```
-### Example 1: Without Using Generics
+## Example 1: Without Using Generics
 Suppose, you need to create a class that can work with both **int** and **double** data types. You can create two classes, one for **int** and another for **double** like this:
 
 ```dart
@@ -48,11 +48,11 @@ IntData: 10
 DoubleData: 10.5
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=" style="blue" %}}{{% /button %}}
 
 This is not a good practice because both class contain same code. You can create one **Generics** class that can work with different data types. See the example below.
 
-### Example 2: Using Generics
+## Example 2: Using Generics
 In this example below, there is single class that can work with **int**, **double**, and any other data types using **Generics**. 
 
 ```dart
@@ -78,9 +78,9 @@ IntData: 10
 DoubleData: 10.5
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=" style="blue" %}}{{% /button %}}
 
-### Generics Type Variable
+## Generics Type Variable
 Generics type variables are used to define the type of data that can be used with the class. In the above example, **T** is a type variable. You can use any name for the type variable. A few typical names are **T**, **E**, **K**, and **V**.
 
 |  Name |  Work 
@@ -91,7 +91,7 @@ Generics type variables are used to define the type of data that can be used wit
 |  V |  Value  |
 
 
-### Dart Map Class
+## Dart Map Class
 Like [**List**](/collections/list-in-dart/), internal implementation of [**Map**](/collections/map-in-dart/) work with different types of data like int, String, double, etc. This is because Map is a generic class.
 
 ```dart
@@ -113,7 +113,7 @@ void main() {
 ```
 
 
-### Generics Methods
+## Generics Methods
 You can also create a generic method. For this, you need to use the **\<T\>** keyword before the method's return type. See the example below.
 
 ```dart
@@ -136,9 +136,9 @@ Double: 10.5
 String: Hello
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=" style="blue" %}}{{% /button %}}
 
-### Example 3: Generic Method With Multiple Parameters
+## Example 3: Generic Method With Multiple Parameters
 In this example below, you will learn to create a generic method with multiple parameters.
 ```dart
 // Define generic method
@@ -158,13 +158,13 @@ void main() {
 Hello
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=" style="blue" %}}{{% /button %}}
 
 
-### Restricting the Type of Data
+## Restricting the Type of Data
 While implementing generics, you can restrict the type of data that can be used with the class or method. This is done by using the **extends** keyword. See the example below.
 
-### Example 4: Generic Class With Restriction
+## Example 4: Generic Class With Restriction
 In this example below, there is a **Data** class that works only with **int** and **double** types. It will not work with other types..
 
 ```dart
@@ -191,10 +191,10 @@ IntData: 10
 DoubleData: 10.5
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=" style="blue" %}}{{% /button %}}
 
 
-### Example 5: Generic Method With Restriction
+## Example 5: Generic Method With Restriction
 In this example below, a generic method **getAverage** takes two parameters of Type **T**, which is considered a **num**. The method returns the average of the two parameters.
 ```dart
 // Define generic method
@@ -214,9 +214,9 @@ Average of int: 15
 Average of double: 15.5
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=" style="blue" %}}{{% /button %}}
 
-### Example 6: Generic Class In Dart
+## Example 6: Generic Class In Dart
 In this example below, there is an abstract class **Shape** with one abstract method called area which returns a double. Also there are two classes that implement Shape, **Circle** and **Rectangle**. There is class **Region** which takes a list of Shape objects and has a method called totalArea which returns the sum of the areas of all the shapes in the list.
 
 ```dart
@@ -282,12 +282,12 @@ void main() {
 Total Area of Region: 514
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=" style="blue" %}}{{% /button %}}
 
-### Advantages of Generics
+## Advantages of Generics
 - It solve the problem of type safety.
 - It helps to reuse our code.
 
-### Video
+## Video
 Watch our video on generics in Dart.
 {{< youtube Te6M8gVqKv4 >}}

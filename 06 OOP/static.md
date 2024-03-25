@@ -5,16 +5,16 @@ description = "In this section, you will learn about static in Dart programming 
 keywords = ["static", "dart static keyword", "static in dart", "static method in dart", "static in dart programming", "static in dart programming language"]
 +++
 
-### Introduction
+## Introduction
 In this section, you will learn about **dart static** to share the same variable or method across all instances of a class.
 
-### Static In Dart
+## Static In Dart
 If you want to define a variable or method that is shared by all instances of a class, you can use the **static** keyword. Static members are accessed using the class name. It is used for **memory management**.
 
-### Dart Static Variable
+## Dart Static Variable
 A static variable is a variable that is shared by all instances of a class. It is declared using the static keyword. It is initialized only once when the class is loaded. It is used to store the **class-level data**.
 
-### How To Declare A Static Variable In Dart
+## How To Declare A Static Variable In Dart
 To declare a static variable in Dart, you must use the static keyword before the variable name.
 ```dart
 class ClassName {
@@ -22,7 +22,7 @@ class ClassName {
 }
 ```
 
-### How To Initialize A Static Variable In Dart
+## How To Initialize A Static Variable In Dart
 To initialize a static variable simply assign a value to it.
 ```dart
 class ClassName {
@@ -33,7 +33,7 @@ class ClassName {
 }
 ```
 
-### How To Access A Static Variable In Dart
+## How To Access A Static Variable In Dart
 You need to use the **ClassName.variableName** to access a static variable in Dart.
 ```dart
 class ClassName {
@@ -50,7 +50,7 @@ void main() {
 }
 ```
 
-### Example 1: Static Variable In Dart
+## Example 1: Static Variable In Dart
 In this example below, there is a class named **Employee**. The class has a static variable **count** to count the number of employees.
 
 ```dart
@@ -84,13 +84,13 @@ Total Employee: 2
 Total Employee: 3
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=" style="blue" %}}Run Online{{% /button %}} 
+{{% button href="https://dartpad.dev/?id=" style="blue" %}}{{% /button %}} 
 
 {{% notice info %}}
 **Note:** While creating the objects of the class, the static variable **count** is incremented by 1. The **totalEmployee()** method displays the value of the static variable **count**.
 {{% /notice %}}
 
-### Example 2: Static Variable In Dart
+## Example 2: Static Variable In Dart
 In this example below, there is a class named **Student**. The class has a static variable **schoolName** to store the name of the school. If every student belongs to the same school, then it is better to use a static variable.
 
 ```dart
@@ -123,12 +123,12 @@ Name: Smith
 School Name: ABC School
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=" style="blue" %}}{{% /button %}}
 
-### Dart Static Method
+## Dart Static Method
 A static method is shared by all instances of a class. It is declared using the static keyword. You can access a static method without creating an object of the class.
 
-### Syntax
+## Syntax
 ```dart
 class ClassName{
 static returnType methodName(){
@@ -137,7 +137,7 @@ static returnType methodName(){
 }
 ```
 
-### Example 3: Static Method In Dart
+## Example 3: Static Method In Dart
 In this example, we will create a static method **calculateInterest()** which calculates the simple interest. You can call **SimpleInterest.calculateInterest()** anytime without creating an instance of the class.
 
 ```dart
@@ -157,10 +157,10 @@ void main() {
 The simple interest is 40.0
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=" style="blue" %}}{{% /button %}}
 
 
-### Example 4: Static Method In Dart
+## Example 4: Static Method In Dart
 In this example below, there is static method **generateRandomPassword()** which generates a random password. You can call **PasswordGenerator.generateRandomPassword()** anytime without creating an instance of the class.
 
 ```dart
@@ -191,17 +191,17 @@ void main() {
 v5*p4*o2&c7%k1@
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=" style="blue" %}}{{% /button %}}
 
 
 {{% notice info %}}
 **Note**: You don't need to create an instance of a class to call a static method.
 {{% /notice %}}
 
-### Key Points To Remember
+## Key Points To Remember
 - Static members are accessed using the class name.
 - All instances of a class share static members.
 
-### Video
+## Video
 Watch our video on static in Dart.
 {{< youtube NfzBVLK9rGg >}}

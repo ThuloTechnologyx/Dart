@@ -6,7 +6,7 @@ description = "Null Safety Practice Questions Dart"
 keywords = "null safety practice questions dart, null safety practice questions dart example, null safety practice questions dart usecase, null safety practice questions dart flutter, null safety practice questions dart null safety, null safety practice questions dart flutter example, null safety practice questions dart flutter usecase, null safety practice questions dart flutter null safety"
 +++
 
-### Question For Practice 7
+## Question For Practice 7
 1. What is the purpose of the **?** operator in Dart null safety?
 2. Create a **late** variable named **address**, assign a **US** value to it and print it.
 3. How do you declare a nullable type in Dart null safety?

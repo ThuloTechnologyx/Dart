@@ -5,10 +5,10 @@ keywords = ["reverse a list in dart", "reverse a list in dart programming", "rev
 description = "In this tutorial, you will learn how to reverse a list in Dart programming language."
 +++
 
-### Reverse a List In Dart
+## Reverse a List In Dart
 There are several ways to reverse a list in dart. Here are some of the most common approaches:
 
-### Using reversed Method:
+## Using reversed Method:
 The reversed method returns an iterable that provides the reversed view of the list. You can convert this iterable to a list using the toList method. Here's an example:
 
 ```dart
@@ -23,7 +23,7 @@ print(reversedNumbers); // [5, 4, 3, 2, 1]
 ````
 {{% /expand %}}
 
-### Using List.from Constructor:
+## Using List.from Constructor:
 You can use the List.from constructor to create a new list from the original list and then call the reversed method on it. Here's an example:
 
 ```dart
@@ -39,7 +39,7 @@ print(reversedNumbers); // [5, 4, 3, 2, 1]
 {{% /expand %}}
 
 
-### Using a Loop:
+## Using a Loop:
 You can use a loop to iterate through the original list and add its elements to a new list in reverse order. Here's an example:
 
 ```dart

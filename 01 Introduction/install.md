@@ -15,7 +15,7 @@ There are multiple ways to install a dart on your system. You can install Dart o
 ## Dart Windows Installation
 Follow the below instructions to install a dart on the windows operating system. 
 
-###**Steps:**
+##**Steps:**
 - Download Dart SDK from [here](https://dart.dev/get-dart/archive).
 - Copy **dart-sdk** folder to your C drive.
 - Add **C:\dart-sdk\bin** to your environment variable. Watch the video below to be more clear.
@@ -26,7 +26,7 @@ Follow the below instructions to install a dart on the windows operating system.
 
 
 {{% notice info %}}
-###**Note**: Dart SDK provides the tools to compile and run dart program.
+##**Note**: Dart SDK provides the tools to compile and run dart program.
 {{% /notice %}}
 
 ## Dart Mac Installation

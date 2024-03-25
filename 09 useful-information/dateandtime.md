@@ -4,13 +4,13 @@ weight = 2
 description = "In this section, you will learn about  datetime in Dart programming language and how to use datetime with the help of examples."
 keywords = "dart datetime, datetime in dart, date time in dart, date time in dart programming, dart date time"
 +++
-### DateTime In Dart
+## DateTime In Dart
 [![targets](/images/pieces/note-banner.png)](https://pieces.app/?utm_source=dart-tutorial&utm_medium=banner&utm_campaign=dart-tutorial-website&utm_content=note)
 
 Date and time are often used in our day-to-day activities. As a programmer you need to know how to find a date and time? How to format date? and how to perform different calculation in date? 
 
 
-### How To Get Date And Time
+## How To Get Date And Time
 Use the following code to get the current date and time in the dart.
 
 ```dart
@@ -28,10 +28,10 @@ This is just sample output. This will print current date and time
 ````
 {{% /expand %}}
 
-### Get Year, Month, Day Of Datetime In Dart
+## Get Year, Month, Day Of Datetime In Dart
 Here is the way to get a year, month, day, hour, minutes, and seconds in Dart. You can convert DateTime to String by using the `toString()` method. 
 
-### Example
+## Example
 ```dart
 void main() {
   DateTime datetime = DateTime.now();
@@ -57,7 +57,7 @@ Second is 25
 ````
 {{% /expand %}}
 
-### How To Convert Datetime To String In Dart
+## How To Convert Datetime To String In Dart
 Use the following code to convert DateTime to String in the dart.
 
 ```dart
@@ -76,7 +76,7 @@ This is just sample output. This will print current date and time
 ````
 {{% /expand %}}
 
-### How To Convert String To DateTime
+## How To Convert String To DateTime
 You cannot get year, months, or day directly and cannot perform date calculation using a String if that String contains the correct DateTime value. In such a situation, you first need to convert String to DateTime. 
 
 ```dart
@@ -100,7 +100,7 @@ Day is 1
 {{% /expand %}}
 
 
-### Methods Supported By Datetime In Dart
+## Methods Supported By Datetime In Dart
 You can use DateTime methods if you want to add days, hours, or minutes to DateTime. Let us suppose you have created a DateTime object named mybirthday. ` DateTime mybirthday = DateTime.parse("1997-05-14");`
 
 |  Method  |  Example  |  
@@ -112,7 +112,7 @@ You can use DateTime methods if you want to add days, hours, or minutes to DateT
 Note: You can set a duration to `days`, `hours`, `minutes`, `seconds`, `milliseconds`, and `microseconds`. To understand it more, look at the example below.
 {{% /notice %}}
 
-### Example Add Date In Dart
+## Example Add Date In Dart
 ```dart
 void main() {
   DateTime myBirthday = DateTime.parse("1997-05-14");
@@ -134,7 +134,7 @@ Day is 15
 ````
 {{% /expand %}}
 
-### Example Subtract Date In Dart
+## Example Subtract Date In Dart
 ```dart
 void main() {
   DateTime myBirthday = DateTime.parse("1997-05-14");
@@ -155,7 +155,7 @@ Day is 13
 ````
 {{% /expand %}}
 
-### Find Difference Between Two Dates In Dart
+## Find Difference Between Two Dates In Dart
 Suppose you want to find the difference between two dates in dart. There is a straightforward way.
 ```dart
 void main() {
@@ -195,7 +195,7 @@ Difference in milliseconds: 786621135215
 |  inMicroseconds  |  Convert duration in micro seconds.|
 
 
-### DateTime Comparision Methods
+## DateTime Comparision Methods
 If you want to compare two dates, then you can use comparison methods.
 
 |  Method Name  |  Description  |  

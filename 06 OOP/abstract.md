@@ -5,13 +5,13 @@ description = "An abstract class is a class that cannot be instantiated. It is u
 keywords = ["abstraction in dart", "abstract class", "abstract class in dart", "abstract class in dart programming", "abstract class in dart programming language"]
 +++
 
-### Introduction
+## Introduction
 In this section, you will learn about **dart abstract class**. Before learning about abstract class, you should have a basic understanding of **[class](/object-oriented-programming/class-in-dart/)**, **[object](/object-oriented-programming/object-in-dart/)**, **[constructor](/object-oriented-programming/constructor-in-dart/)**, and **[inheritance](/object-oriented-programming/inheritance-in-dart/)**. Previously you learned how to define a class. These classes are **concrete classes**. You can create an object of concrete classes, but you cannot create an object of abstract classes. 
 
-### Abstract Class
+## Abstract Class
 Abstract classes are classes that cannot be initialized. It is used to define the behavior of a class that can be inherited by other classes. An abstract class is declared using the keyword **abstract**.
 
-### Syntax
+## Syntax
 ```dart
 abstract class ClassName {
   //Body of abstract class
@@ -20,9 +20,9 @@ abstract class ClassName {
   method2();
 }
 ```
-### Abstract Method
+## Abstract Method
 An abstract method is a method that is declared without an implementation. It is declared with a semicolon (;) instead of a method body.
-### Syntax
+## Syntax
 ```dart
 abstract class ClassName {
   //Body of abstract class
@@ -31,11 +31,11 @@ abstract class ClassName {
 }
 ```
 
-### Why We Need Abstract Class
+## Why We Need Abstract Class
 Subclasses of an abstract class must implement all the abstract methods of the abstract class. It is used to achieve abstraction in the Dart programming language.
 
 
-### Example 1: Abstract Class In Dart
+## Example 1: Abstract Class In Dart
 In this example below, there is an abstract class **Vehicle** with two abstract methods **start()** and **stop()**. The subclasses **Car** and **Bike** implement the abstract methods and override them to print the message.
 
 ```dart
@@ -93,14 +93,14 @@ Bike started
 Bike stopped
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=57d3efb40722aca895b95da04519ad36" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=57d3efb40722aca895b95da04519ad36" style="blue" %}}{{% /button %}}
 
 {{% notice info %}}
 **Note**: The abstract class is used to define the behavior of a class that can be inherited by other classes. You can define an abstract method inside an abstract class.
 {{% /notice %}}
 
 
-### Example 2: Abstract Class In Dart
+## Example 2: Abstract Class In Dart
 In this example below, there is an abstract class **Shape** with one abstract method **area()** and two subclasses **Rectangle** and **Triangle**. The subclasses implement the **area()** method and override it to calculate the area of the rectangle and triangle, respectively.
 
 ```dart
@@ -149,13 +149,13 @@ The area of the rectangle is 200
 The area of the triangle is 100.0
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=4fae8d45c7d31ea589ebbda0a4a4d586" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=4fae8d45c7d31ea589ebbda0a4a4d586" style="blue" %}}{{% /button %}}
   
 
-### Constructor In Abstract Class
+## Constructor In Abstract Class
 You can't create an object of an abstract class. However, you can define a constructor in an abstract class. The constructor of an abstract class is called when an object of a subclass is created.
 
-### Example 3: Constructor In Abstract Class
+## Example 3: Constructor In Abstract Class
 In this example below, there is an abstract class **Bank** with a constructor which takes two parameters **name** and **rate**. There is an abstract method **interest()**. The subclasses **SBI** and **ICICI** implement the abstract method and override it to print the interest rate.
 
 ```dart
@@ -214,9 +214,9 @@ The rate of interest of ICICI is 7.3
 Bank Name: ICICI
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=4dd2c035d6d1eb80f861b4eeb987bdff" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=4dd2c035d6d1eb80f861b4eeb987bdff" style="blue" %}}{{% /button %}}
 
-### Key Points To Remember
+## Key Points To Remember
 - You can't create an object of an abstract class.
 - It can have both abstract and non-abstract methods.
 - It is used to define the behavior of a class that other classes can inherit.

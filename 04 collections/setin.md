@@ -5,19 +5,19 @@ description = "Learn Set in dart with its properties, methods, and examples."
 keywords = "dart Set, learn dart Set, Set in the dart, learn dart programming, dart tutorial."
 +++
 
-### Set In Dart
+## Set In Dart
 Set is a unique collection of items. You cannot store duplicate values in the Set. It is unordered, so it can be faster than lists while working with a large amount of data. Set is useful when you need to store unique values without considering the order of the input. E.g., fruits name, months name, days name, etc. It is represented by **Curley Braces{}.**
 
 {{% notice info %}}
 **Note**: The list allows you to add **duplicate items**, but the Set doesn't allow it. 
 {{% /notice %}}
 
-### Syntax
+## Syntax
 ```dart
 Set <variable_type> variable_name = {};
 ```
 
-### How To Create A Set In Dart
+## How To Create A Set In Dart
 You can create a Set in Dart using the **Set** type annotation. Here **Set\<String>** means only text is allowed in the Set. 
 
 ```dart
@@ -31,9 +31,9 @@ void main(){
 {Apple, Orange, Mango}
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=a81291eb0617b7bd9db9d5f82d94838e" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=a81291eb0617b7bd9db9d5f82d94838e" style="blue" %}}{{% /button %}}
 
-### Set Properties In Dart
+## Set Properties In Dart
 |  Properties |  Work |
 | ----------- | --------- |
 |  **first**  |    To get first value of Set.  |
@@ -42,7 +42,7 @@ void main(){
 |  **isNotEmpty**  |    Return true or false.  |
 |  **length**  |    It returns the length of the Set.  |
 
-### Example of Set Properties Dart
+## Example of Set Properties Dart
 This example finds the first and last element of the Set, checks whether it is empty or not, and finds its length.
 
 ```dart
@@ -67,9 +67,9 @@ Is fruits not empty? true
 The length of fruits is 4
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=302d88156a2c7b4d5e92cc5012ebd45d" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=302d88156a2c7b4d5e92cc5012ebd45d" style="blue" %}}{{% /button %}}
 
-### Check The Available Value
+## Check The Available Value
 If you want to see whether the Set contains specific items or not, you can use the **contains** method, which returns true or false.
 
 ```dart
@@ -85,9 +85,9 @@ true
 false
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=f4f4cc1854067bebf1d3af8adef0d71d" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=f4f4cc1854067bebf1d3af8adef0d71d" style="blue" %}}{{% /button %}}
 
-### Add & Remove Items In Set
+## Add & Remove Items In Set
 Like lists, you can add or remove items in a Set. To add items use **add()** method and to remove use **remove()** method.
 
 |  Method |  Description 
@@ -114,9 +114,9 @@ After Adding Lemon and Grape: {Apple, Orange, Mango, Lemon, Grape}
 After Removing Apple: {Orange, Mango, Lemon, Grape}
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=06d83448873eb77c024265ca9cf12a90" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=06d83448873eb77c024265ca9cf12a90" style="blue" %}}{{% /button %}}
 
-### Adding Multiple Elements
+## Adding Multiple Elements
 You can use **addAll()** method to add multiple elements from the list to Set.
 |  Method |  Description 
 | ----------- | --------- |
@@ -134,9 +134,9 @@ void main(){
 After adding 40 and 50: {10, 20, 30, 40, 50}
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=cf03cabf46a6d1b1f4a9c1dc97ec65fd" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=cf03cabf46a6d1b1f4a9c1dc97ec65fd" style="blue" %}}{{% /button %}}
 
-### Printing All Values In Set
+## Printing All Values In Set
 You can print all Set items by using loops. [Click here](/conditions-and-loops/loops-in-dart/) if you want to learn loop in dart.
 
 ```dart
@@ -155,9 +155,9 @@ Orange
 Mango
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=b33cb6f3f3d163891024fe7c57a32cd7" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=b33cb6f3f3d163891024fe7c57a32cd7" style="blue" %}}{{% /button %}}
 
-### Set Methods In Dart
+## Set Methods In Dart
 Some other helpful Set methods in dart.
 |  Method |  Description 
 | ----------- | --------- |
@@ -167,7 +167,7 @@ Some other helpful Set methods in dart.
 |  **intersection()** |    Find common elements in two sets. |
 
 
-### Clear Set In Dart
+## Clear Set In Dart
 In this example, you can see how to remove all items from the Set in dart. 
 
 ```dart
@@ -184,9 +184,9 @@ void main() {
 {}
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=dd47d41f89714f10d5eb6e365645787c" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=dd47d41f89714f10d5eb6e365645787c" style="blue" %}}{{% /button %}}
 
-### Difference In Set 
+## Difference In Set 
 In Dart, the difference method creates a new Set with the elements that are not in the other.
 ```dart
 void main() {
@@ -203,9 +203,9 @@ void main() {
 {Orange, Mango}
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=c5689e106ed901f586b04a1b4b2be666" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=c5689e106ed901f586b04a1b4b2be666" style="blue" %}}{{% /button %}}
 
-### Element At Method In Dart
+## Element At Method In Dart
 In Dart you can find the Set value by its index number. The index number starts with 0.
 ```dart
 void main() {
@@ -219,9 +219,9 @@ void main() {
 Tuesday
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=12d2de173ce43b54e309fe5e946d78be" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=12d2de173ce43b54e309fe5e946d78be" style="blue" %}}{{% /button %}}
 
-### Intersection Method In Dart
+## Intersection Method In Dart
 In Dart, the intersection method creates a new Set with the common elements in 2 Sets. Here Apple is available in both Sets.
 ```dart
 void main() {
@@ -238,4 +238,4 @@ void main() {
 {Apple}
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=944e1124eb240d663f8a81b6aa50ad6b" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=944e1124eb240d663f8a81b6aa50ad6b" style="blue" %}}{{% /button %}}

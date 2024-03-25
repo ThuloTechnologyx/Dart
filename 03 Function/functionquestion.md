@@ -6,7 +6,7 @@ description = "Practice questions for dart functions. Solve these questions and 
 keywords = "dart practice questions, dart functions practice questions, dart questions for practice"
 +++
 
-### Question For Practice 3
+## Question For Practice 3
 1. Write a program in Dart to print your own name using function.
 2. Write a program in Dart to print even numbers between intervals using function
 3. Write a program in Dart that generates random password.

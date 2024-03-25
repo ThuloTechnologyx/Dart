@@ -5,10 +5,10 @@ description = "Getter and Setter in Dart is used to get and set the value of pri
 keywords = ["getter and setter", "getter and setter in dart", "getter and setter in dart programming", "getter and setter in dart programming language"]
 +++
 
-### Introduction
+## Introduction
 In this section, you will learn about **Getter and Setter** in dart with the help of examples.
 
-### Getter And Setter
+## Getter And Setter
 **[Getter](/object-oriented-programming/getter-in-dart/)** and **[Setter](/object-oriented-programming/getter-in-dart/)** provide explicit read and write access to an object properties. In dart, **get** and **set** are the keywords used to create getter and setter. Getter read the value of property and act as **accessor**. Setter update the value of property and act as **mutator**.
 
 
@@ -16,13 +16,13 @@ In this section, you will learn about **Getter and Setter** in dart with the hel
 **Note:** You can use same name for **getter** and **setter**. But, you can't use same name for **getter**, **setter** and **property name**.
 {{% /notice %}}
 
-### Use Of Getter and Setter
+## Use Of Getter and Setter
 - Validate the data before reading or writing.
 - Restrict the read and write access to the properties.
 - Making the properties read-only or write-only.
 - Perform some action before reading or writing the properties.
 
-### Example 1: Getter And Setter In Dart
+## Example 1: Getter And Setter In Dart
 In this example below, there is a class named **Student** with three private properties **_firstName**, **_lastName** and **_age**. There are two getters **fullName** and **age** to get the value of the properties. There are also three setters **firstName**, **lastName** and **age** to update the value of the properties. If **age** is less than 0, it will throw an error. 
     
 ```dart
@@ -71,9 +71,9 @@ Full Name: John Doe
 Age: 20
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=3289b7816f87c3d0ee40627fbafb1850" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=3289b7816f87c3d0ee40627fbafb1850" style="blue" %}}{{% /button %}}
 
-### Example 2: Getter And Setter In Dart
+## Example 2: Getter And Setter In Dart
 In this example below, there is a class named **BankAccount** with one private property **_balance**. There is one getter **balance** to read the value of the property. There are methods **deposit** and **withdraw** to update the value of the **_balance**. 
 ```dart
 class BankAccount {
@@ -117,15 +117,15 @@ Balance after deposit: 1000
 Balance after withdraw: 500
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=eac4d755214e6dc23c3f2776578c66a8" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=eac4d755214e6dc23c3f2776578c66a8" style="blue" %}}{{% /button %}}
 
-### When To Use Getter And Setter
+## When To Use Getter And Setter
 - Use getter and setter when you want to restrict the access to the properties.
 - Use getter and setter when you want to perform some action before reading or writing the properties.
 - Use getter and setter when you want to validate the data before reading or writing the properties.
 - Don't use getter and setter when you want to make the properties read-only or write-only.
 
 
-### Video
+## Video
 Watch our video on getter and setter in Dart.
 {{< youtube h5r8HbkQgJM >}}

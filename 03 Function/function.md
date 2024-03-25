@@ -5,7 +5,7 @@ keywords = "dart functions, function in dart, learn dart programming, dart tutor
 description = "In this tutorial, you will learn about functions in dart. Functions are the block of code that performs a specific task."
 +++
 
-### Function In Dart
+## Function In Dart
 In this tutorial, you will learn about functions in dart. **Functions** are the block of code that performs a specific task. They are created when some statements are repeatedly occurring in the program. The function helps reusability of the code in the program. 
 
 {{% notice info %}}
@@ -13,12 +13,12 @@ In this tutorial, you will learn about functions in dart. **Functions** are the 
 {{% /notice %}}
 
 
-### Function Advantages
+## Function Advantages
 - Avoid Code Repetition
 - Easy to divide the complex program into smaller parts
 - Helps to write a clean code
 
-### Syntax 
+## Syntax 
 ```dart
 returntype functionName(parameter1,parameter2, ...){
   // function body
@@ -31,7 +31,7 @@ returntype functionName(parameter1,parameter2, ...){
 **Parameters**: Parameters are the input to the function, which you can write inside the bracket (). Always follow a lowerCamelCase naming convention for your function parameter.
 
 
-### Example 1: Function That Prints Name
+## Example 1: Function That Prints Name
 This is a simple program that prints name using function. The name of function is **printName()**.
 
 ```dart
@@ -49,9 +49,9 @@ void main(){
 My name is Raj Sharma. I am from function.
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=83342bf8aa8707b0c621c1f1a8a79656" style="blue" %}}Run Online{{% /button %}}  
+{{% button href="https://dartpad.dev/?id=83342bf8aa8707b0c621c1f1a8a79656" style="blue" %}}{{% /button %}}  
 
-### Example 2: Function To Find Sum of Two Numbers
+## Example 2: Function To Find Sum of Two Numbers
 This function finds the sum of two numbers. Here, the function accepts two parameters. i.e., **num1 and num2**, and the return type is void. 
 
 ```dart
@@ -69,9 +69,9 @@ void main(){
 The sum is 30
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=a52916981d94114e65c6118a2e9dc0e1" style="blue" %}}Run Online{{% /button %}} 
+{{% button href="https://dartpad.dev/?id=a52916981d94114e65c6118a2e9dc0e1" style="blue" %}}{{% /button %}} 
 
-### Example 3: Function That Find Simple Interest 
+## Example 3: Function That Find Simple Interest 
 This function finds simple interest from principal, time and rate and display result.
 ```dart
 // function that calculate interest
@@ -93,20 +93,20 @@ void main() {
 Simple interest is 450.0
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=a6e197bc105e0d7a5010cb0e522764f7" style="blue" %}}Run Online{{% /button %}} 
+{{% button href="https://dartpad.dev/?id=a6e197bc105e0d7a5010cb0e522764f7" style="blue" %}}{{% /button %}} 
 
-### Challenge
+## Challenge
 Create a function that finds a cube of numbers.
 
-### Key Points
+## Key Points
 - In dart function are also objects.
 - You should follow the **lowerCamelCase** naming convention while naming function.
 - You should follow the **lowerCamelCase** naming convention while naming function parameters.
 
-### About lowerCamelCase
+## About lowerCamelCase
 Name should start with lower-case, and every second word’s first letter will be upper-case like num1, fullName, isMarried, etc. Technically, this naming convention is called lowerCamelCase.
 
-### Function Paramaters Vs Arguments
+## Function Paramaters Vs Arguments
 Many programmers are often confused about parameters and arguments. Let's have a look at this example.
 
 ```dart

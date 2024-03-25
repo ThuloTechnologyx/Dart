@@ -5,10 +5,10 @@ description = "In this section, you will learn how to read file in dart programm
 keywords = "read file in dart, read file in dart programming, read file in dart programming language"
 +++
 
-### Introduction To File Handling
+## Introduction To File Handling
 File handling is an important part of any programming language. In this section, you will learn how to read the file in a dart programming language.
 
-### Read File In Dart
+## Read File In Dart
 Assume that you have a file named `test.txt` in the same directory of your dart program.
 
 ```text
@@ -37,7 +37,7 @@ This is a test file.
 ````
 {{% /expand %}}
 
-### Get File Information
+## Get File Information
 In this example below, you will learn how to get file information like file location, file size, and last modified time.
 ```dart
 import 'dart:io';
@@ -68,14 +68,14 @@ Last modified: 2023-01-28 11:00:32.000
 **Note**: If you try to get information of a file that does not exist, then it will throw an exception.
 {{% /notice %}}
 
-### CSV File
+## CSV File
 A CSV (**Comma Separated Values**) file is a plain text file that contains data organized in a table format, where columns are separated by commas and rows are separated by line breaks. CSV files are used for:
 - Data exchange between different applications.
 - Data backup and restore.
 - Importing and exporting data from databases.
 - Automation of data processing tasks.
 
-### Read CSV File In Dart 
+## Read CSV File In Dart 
 Assume that you have a CSV file named `test.csv` in the same directory of your dart program.
 
 ```text
@@ -113,7 +113,7 @@ Smith, smith@gmail.com, 0987654321
 ````
 {{% /expand %}}
 
-### Read Only Part Of File
+## Read Only Part Of File
 You can read only part of file using **substring()** method. Here is an example to read only first 10 characters of file. Make sure that you have a file named **test.txt** in the same directory of your dart program.
 
 ```text
@@ -140,7 +140,7 @@ Welcome to
 ````
 {{% /expand %}}
 
-### Read File From Specific Directory
+## Read File From Specific Directory
 To read a file from a specific directory, you need to provide the full path of the file. Here is an example to read file from a specific directory. 
 ```dart
 // dart program to read from file

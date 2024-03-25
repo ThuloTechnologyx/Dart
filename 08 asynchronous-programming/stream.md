@@ -3,7 +3,7 @@ title = "Streams In Dart"
 weight = 4
 +++
 
-### Stream
+## Stream
 A stream is a sequence of asynchronous events representing multiple values that will arrive in the future. Stream class deals with sequences of events instead of single events. Stream has one or more listeners, and all listeners will receive the same value.
 
 For example, A stream is like a pipe that emits events, you put a value on the one end, and if there’s a listener on the other end that listener will receive that value. These events can be values of any type, errors or a "done" event to signal the end of the stream.
@@ -13,7 +13,7 @@ For example, A stream is like a pipe that emits events, you put a value on the o
 |   Sync   |    `int`     |   `Iterator`   |
 |   Async  | `Future<int>`|  `Stream<int>` |
 
-### How To Create Stream In Dart
+## How To Create Stream In Dart
 
 You can create a stream in dart by using **Stream** class. Here the function will return **`Stream<String>`** after 5 seconds.
 
@@ -42,7 +42,7 @@ Stream<String> getUserName() {
 }
 ```
 
-### How To Use Stream In Dart
+## How To Use Stream In Dart
 
 You can use stream in dart by using **`await for`** loop.
 
@@ -78,7 +78,7 @@ Smith
 
 {{% /expand %}}
 
-### Future vs Stream
+## Future vs Stream
 
 |  Future  |  Stream  |
 |----------|----------|
@@ -88,28 +88,28 @@ Smith
  |It can't listen to a variable change.|But Stream can listen to a variable change.|
  | Syntax: Future <data_type> class_name|Syntax: Stream <data_type> class_name|
 
-### Types Of Stream
+## Types Of Stream
 
 There are two types of streams:
 
 1. Single Subscription streams
 2. Broadcast streams
 
-### Single Subscription Stream
+## Single Subscription Stream
 
 By default, Streams are set up for a single subscription. They hold onto the values until someone subscribes and can only be listened to once. You will get an exception if you try to listen more than once. Any event's value should not be missed and must be in the correct order. Inside the stream controller, there is only one stream, and only one subscriber can use that stream.
 
-### Broadcast Stream
+## Broadcast Stream
 
 This is the stream that is set up for multiple subscriptions. They hold onto the values until subscribers can only listen many times. You can use the broadcast stream if you want more objects to listen to the stream. It can be used for mouse events in a browser. Inside the stream controller, many streams can be used by many subscribers. E.g., You can start watching videos on such a stream at any time, and more than one subscriber can watch the video simultaneously. Similarly, you can watch again after canceling a previous subscription.
 
-### Syntax
+## Syntax
 
 ```dart
 StreamController<data_type> controller = StreamController<data_type>.broadcast();
 ```
 
-### How Streams Are Created
+## How Streams Are Created
 
 You can create a stream in many ways. Let’s create a `StreamController` first.
 
@@ -123,7 +123,7 @@ Now we can access this controller through the `stream` property.
 Stream stream = controller.stream;
 ```
 
-### How To Subscribe A Stream
+## How To Subscribe A Stream
 
 After getting access from the stream you subscribe to the stream by calling a `listen()` method.
 
@@ -133,7 +133,7 @@ After getting access from the stream you subscribe to the stream by calling a `l
 });
 ```
 
-### How To Add Value To The Stream
+## How To Add Value To The Stream
 
 We can add the stream by calling the `add()` method. Let’s add some value to the stream.
 
@@ -145,7 +145,7 @@ When we call the above function, we’ll get the output as:
 
 Value from controller: 3
 
-### How To Manage The Stream
+## How To Manage The Stream
 
 To manage the stream, `listen()` method is used.
 
@@ -155,7 +155,7 @@ StreamSubscription<int> streamSubscription = stream.listen((value){
 });
 ```
 
-### How To Cancel A Stream
+## How To Cancel A Stream
 
 You can cancel a stream by using the `cancel()` method.
 
@@ -163,7 +163,7 @@ You can cancel a stream by using the `cancel()` method.
 streamSubscription.cancel();
 ```
 
-### Types Of Classes In Stream
+## Types Of Classes In Stream
 
 Four major classes in Dart’s async libraries are used to manage streams.
 
@@ -189,12 +189,12 @@ It is like a stream that flows in the opposite direction.
 **StreamSubscription:**
  It saves the references of the subscription and allows them to pause, resume or cancel the flow of data they receive.
 
-### Method Used In Stream
+## Method Used In Stream
 
 There are four methods used in the stream:
 *listen(): It returns a StreamSubscription object representing the active stream-producing events. The stream subscription allows you to pause, resume the subscription after a pause, and cancel the subscription completely.
 
-### Syntax: listen
+## Syntax: listen
 
 ```dart
 final subscription = myStream.listen()
@@ -202,7 +202,7 @@ final subscription = myStream.listen()
 
 * onError: Stream can provide errors just like a future can; by adding an `onError` method, you can catch and process an mistakes.
 
-### Syntax: onError
+## Syntax: onError
 
 ```dart
 onError: (err){
@@ -212,7 +212,7 @@ onError: (err){
 
 * cancelOnError: This property or method is true by default but can be set to false to keep the subscription going even after an error.
 
-### Syntax: cancelOnError
+## Syntax: cancelOnError
 
 ```dart
 cancelOnError : false
@@ -220,7 +220,7 @@ cancelOnError : false
 
 * onDone: This method can execute some code when the stream is finished sending data, such as when a file has been completely read.
 
-### Syntax: onDome
+## Syntax: onDome
 
 ```dart
 onDone: (){
@@ -228,7 +228,7 @@ onDone: (){
 }
 ```
 
-### Keywords Used In Stream
+## Keywords Used In Stream
 
 * async*:
 It is mainly used in the stream that works like the async in the future.
@@ -239,7 +239,7 @@ It is used to emit values from a generator, either async or sync. yield returns 
 * yield*:
 yield* is used to call its Iterable or Stream function recursively.
 
-### Example Of async
+## Example Of async
 
 ```dart
 Future<int> doSomeLongTask() async {
@@ -259,7 +259,7 @@ Future<int> doSomeLongTask() async {
 
 {{% /expand %}}
 
-### Example Of async*
+## Example Of async*
 
 ```dart
 Stream<int> countForOneMinute() async* {
@@ -286,7 +286,7 @@ Stream<int> countForOneMinute() async* {
 
 {{% /expand %}}
 
-### Example Of yield*
+## Example Of yield*
 
  ```dart
 Stream<int> str(int n) async* {
@@ -315,9 +315,9 @@ void main() {
 {{% /expand %}}
 In the above example, you have printed only an even number from 10 to 2 using stream. It will print the number after 2 sec.
 
-### Some More Example OF Stream
+## Some More Example OF Stream
 
-### Example 1
+## Example 1
 
 ```dart
 import 'dart:async';
@@ -346,7 +346,7 @@ Uncaught Error: Error!
 
 In this example, a String, integer and an error are added to the `StreamController` and then printed using the listen property.
 
-### Example 2
+## Example 2
 
 ```dart
 Stream<int> numberOfStream(int number) async* {
@@ -378,7 +378,7 @@ void main(List<String> arguments) {
 {{% /expand %}}
 In the above example, you must print the number from 0 to 6 using stream.
 
-### Example 3
+## Example 3
 
  ```dart
 Stream<int> str(int n) async* {
@@ -407,7 +407,7 @@ void main() {
 
 In the above example, you must print the number from 1 to 5 using stream. It will print the number after 1 sec.
 
-### async vs async*
+## async vs async*
 
 |  async  |  async*  |
 |----------|----------|
@@ -415,7 +415,7 @@ In the above example, you must print the number from 1 to 5 using stream. It wil
 |async keyword does some work that might take a long time.|async* returns a bunch of future values on at a time.|
 |It gives the result wrapped in future.|It gives the result wrapped in the stream.|
 
-### yield vs yield*
+## yield vs yield*
 
 |  yield  |  yield*  |
 |----------|----------|

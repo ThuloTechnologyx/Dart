@@ -5,10 +5,10 @@ description = "In this section, you will learn how to write file in dart program
 keywords = "write file in dart, write file in dart programming, write file in dart programming language"
 +++
 
-### Introduction
+## Introduction
 In this section, you will learn how to write file in dart programming language by using **File** class and **writeAsStringSync()** method.
 
-### Write File In Dart
+## Write File In Dart
 Let's create a file named **test.txt** in the same directory of your dart program and write some text in it.
 
 ```dart
@@ -34,7 +34,7 @@ File written.
 **Note**: If you have already some content in **test.txt** file, then it will be removed and replaced with new content.
 {{% /notice %}}
 
-### Add New Content To Previous Content 
+## Add New Content To Previous Content 
 You can use **FileMode.append** to add new content to previous content. Assume that **test.txt** file already contains some text.
 ```text
 Welcome to test.txt file.
@@ -62,7 +62,7 @@ Congratulations!! New content is added on top of previous content.
 {{% /expand %}}
 
 
-### Write CSV File In Dart
+## Write CSV File In Dart
 In the example below, we will ask user to enter **name** and **phone** of 3 students and write it to a csv file named **students.csv**.
 
 ```dart

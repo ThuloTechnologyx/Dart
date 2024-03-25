@@ -5,10 +5,10 @@ description = "Learn how to use break and continue in dart."
 keywords = "break in dart, continue in dart, break and continue in dart."
 +++
 
-### Dart Break and Continue
+## Dart Break and Continue
 In this tutorial, you will learn about the **break and continue** in dart. While working on loops, we need to skip some elements or terminate the loop immediately without checking the condition. In such a situation, you can use the break and continue statement.
 
-### Break Statement
+## Break Statement
 Sometimes you will need to break out of the loop immediately without checking the condition. You can do this using break statement.
 
 The break statement is used to exit a loop. It stops the loop immediately, and the program's control moves outside the loop. Here is syntax of break:
@@ -17,7 +17,7 @@ The break statement is used to exit a loop. It stops the loop immediately, and t
 break;
 ``` 
 
-### Example 1: Break In Dart For Loop
+## Example 1: Break In Dart For Loop
 Here, the loop condition is true until the value of i is less than or equal to 10. However, the break says to go outside the loop when the value of i becomes 5.
 ```dart
 void main() {
@@ -38,9 +38,9 @@ void main() {
 4
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=78e5717d41d98bf2d991b1a2312aa97c" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=78e5717d41d98bf2d991b1a2312aa97c" style="blue" %}}{{% /button %}}
 
-### Example 2: Break In Dart Negative For Loop
+## Example 2: Break In Dart Negative For Loop
 Here, the loop condition is true until the value of i is more than or equal to 1. However, the break says to go outside the loop when the value of i becomes 7.
 ```dart
 void main() {
@@ -59,10 +59,10 @@ void main() {
 8
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=f3d1f98a372e3dd7df2cf4fa2c240026" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=f3d1f98a372e3dd7df2cf4fa2c240026" style="blue" %}}{{% /button %}}
 
 
-### Example 3: Break In Dart While Loop
+## Example 3: Break In Dart While Loop
 Here, this while loop condition is true until the value of i is less than or equal to 10. However, the break says to go outside the loop when the value of i becomes 5.
 ```dart
 void main() {
@@ -85,9 +85,9 @@ void main() {
 5
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=cf611e7dc2ab2bc3064c7cac318d1a25" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=cf611e7dc2ab2bc3064c7cac318d1a25" style="blue" %}}{{% /button %}}
 
-### Example 4: Break In Switch Case
+## Example 4: Break In Switch Case
 As we already learn in [dart switch case](/conditions-and-loops/switch-case-in-dart/), it is important to add **break** keyword in switch statement. This example prints the month name based on the number of the month using a switch case.
 
 ```dart
@@ -141,8 +141,8 @@ void main() {
 Selected month is May.
 ````
 {{% /expand %}} 
-{{% button href="https://dartpad.dev/?id=f5f2fe64072f8fbaac7a90cff64b64bb" style="blue" %}}Run Online{{% /button %}}
-### Continue Statement
+{{% button href="https://dartpad.dev/?id=f5f2fe64072f8fbaac7a90cff64b64bb" style="blue" %}}{{% /button %}}
+## Continue Statement
 Sometimes you will need to skip an iteration for a specific condition. You can do this utilizing continue statement.
 
 The continue statement skips the current iteration of a loop. It will bypass the statement of the loop. It does not terminate the loop but rather continues with the next iteration. Here is the syntax of continue statement:
@@ -151,7 +151,7 @@ The continue statement skips the current iteration of a loop. It will bypass the
 continue;
 ``` 
 
-### Example 1: Continue In Dart
+## Example 1: Continue In Dart
 Here, the loop condition is true until the value of i is less than or equal to 10. However, the continue says to go to the next iteration of the loop when the value of i becomes 5.
 ```dart
 void main() {
@@ -176,9 +176,9 @@ void main() {
 10
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=9addce33e98b6c048dc7b4e6ca36dd39" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=9addce33e98b6c048dc7b4e6ca36dd39" style="blue" %}}{{% /button %}}
 
-### Example 2: Continue In For Loop Dart
+## Example 2: Continue In For Loop Dart
 Here, the loop condition is true until the value of i is more than or equal to 1. However, the continue says to go to the next iteration of the loop when the value of i becomes 4.
 ```dart
 void main() {
@@ -203,9 +203,9 @@ void main() {
 1
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=ac3889e41518f16988808f1b330faed2" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=ac3889e41518f16988808f1b330faed2" style="blue" %}}{{% /button %}}
 
-### Example 3: Continue In Dart While Loop
+## Example 3: Continue In Dart While Loop
 Here, this while loop condition is true until the value of i is less than or equal to 10. However, the continue says to go to the next iteration of the loop when the value of i becomes 5.
 ```dart
 void main() {
@@ -234,4 +234,4 @@ void main() {
 10
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=754c4200cc5de0c0c046776cef22e563" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=754c4200cc5de0c0c046776cef22e563" style="blue" %}}{{% /button %}}

@@ -5,10 +5,10 @@ description = "In dart, Inheritance allows you to define a class that extend fun
 keywords = ["inheritance", "inheritance in dart", "inheritance in dart programming", "inheritance in dart programming language"]
 +++
 
-### Introduction
+## Introduction
 In this section, you will learn inheritance in Dart programming and how to define a class that reuses the properties and methods of another class.
 
-### Inheritance In Dart
+## Inheritance In Dart
 Inheritance is a sharing of behaviour between two classes. It allows you to define a class that extends the functionality of another class. The **extend** keyword is used for inheriting from parent class.
 
 {{% notice info %}}
@@ -17,7 +17,7 @@ Inheritance is a sharing of behaviour between two classes. It allows you to defi
 
 Dart supports single inheritance, which means that a class can only inherit from a single class. Dart does not support multiple inheritance which means that a class cannot inherit from multiple classes.
 
-### Syntax
+## Syntax
 ```dart
 class ParentClass {
   // Parent class code
@@ -29,12 +29,12 @@ class ChildClass extends ParentClass {
 ```
 In this syntax, **ParentClass** is the super class and **ChildClass** is the sub class. The **ChildClass** inherits the properties and methods of the **ParentClass**.
 
-### Terminology
+## Terminology
 **Parent Class:** The class whose properties and methods are inherited by another class is called parent class. It is also known as base class or super class.
 
 **Child Class:** The class that inherits the properties and methods of another class is called child class. It is also known as derived class or sub class.
 
-### Example 1: Inheritance In Dart
+## Example 1: Inheritance In Dart
 In this example, we will create a class **Person** and then create a class **Student** that inherits the properties and methods of the **Person** class.
 
 ```dart
@@ -82,16 +82,16 @@ School Name: ABC School
 School Address: New York
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=7937ca7a2a516afebb151311d1cc0dfd" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=7937ca7a2a516afebb151311d1cc0dfd" style="blue" %}}{{% /button %}}
 
-### Advantages Of Inheritance In Dart
+## Advantages Of Inheritance In Dart
 - It promotes reusability of the code and reduces redundant code.
 - It helps to design a program in a better way. 
 - It makes code simpler, cleaner and saves time and money on maintenance.
 - It facilitates the creation of class libraries.
 - It can be used to enforce standard interface to all children classes.
 
-### Example 2: Inheritance In Dart
+## Example 2: Inheritance In Dart
 In this example, here is parent class **Car** and child class **Toyota**. The **Toyota** class inherits the properties and methods of the **Car** class. 
 ```dart
 class Car{
@@ -131,9 +131,9 @@ Model: Camry
 Prize: 20000
 ```
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=750fe96f17f40b95a72fe951f60e028d" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=750fe96f17f40b95a72fe951f60e028d" style="blue" %}}{{% /button %}}
 
-### Types Of Inheritance In Dart
+## Types Of Inheritance In Dart
 
 1. **Single Inheritance** - In this type of inheritance, a class can inherit from only one class. In Dart, we can only extend one class at a time.
 
@@ -143,7 +143,7 @@ Prize: 20000
 
 4. **Multiple Inheritance** - In this type of inheritance, a class can inherit from multiple classes. **Dart does not support multiple inheritance.** For e.g. **Class Toyota extends Car, Vehicle {}** is not allowed in Dart.
 
-### Example 3: Single Inheritance In Dart
+## Example 3: Single Inheritance In Dart
 In this example below, there is super class named **Car** with two properties **name** and **prize**. There is sub class named **Tesla** which inherits the properties of the super class. The sub class has a method **display** to display the values of the properties.
   
   ```dart
@@ -178,9 +178,9 @@ Name: Tesla Model 3
 Prize: 50000.0
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=e2badfaf79554c14d550c0039c1e892c" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=e2badfaf79554c14d550c0039c1e892c" style="blue" %}}{{% /button %}}
 
-### Example 4: Multilevel Inheritance In Dart
+## Example 4: Multilevel Inheritance In Dart
 In this example below, there is super class named **Car** with two properties **name** and **prize**. There is sub class named **Tesla** which inherits the properties of the super class. The sub class has a method **display** to display the values of the properties. There is another sub class named **Model3** which inherits the properties of the sub class **Tesla**. The sub class has a property **color** and a method **display** to display the values of the properties.
   ```dart
  class Car {
@@ -226,13 +226,13 @@ Prize: 50000.0
 Color: Red
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=f5a50bac67ef983b7894f88a37bc47f4" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=f5a50bac67ef983b7894f88a37bc47f4" style="blue" %}}{{% /button %}}
 
 {{% notice info %}}
 **Note:** Here super keyword is used to call the method of the parent class.
 {{% /notice %}}
 
-### Example 5: Multilevel Inheritance In Dart
+## Example 5: Multilevel Inheritance In Dart
 In this example below, there is class named **Person** with two properties **name** and **age**. There is sub class named **Doctor** with properties **listofdegrees** and **hospitalname**. There is another subclass named **Specialist** with property **specialization**. The sub class has a method **display** to display the values of the properties.
 
 ```dart
@@ -289,9 +289,9 @@ Hospital Name: ABC Hospital
 Specialization: Cardiologist
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=88098415597eaf0bc0a5c1b787281cfc" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=88098415597eaf0bc0a5c1b787281cfc" style="blue" %}}{{% /button %}}
 
-### Example 6: Hierarchical Inheritance In Dart
+## Example 6: Hierarchical Inheritance In Dart
 In this example below, there is class named **Shape** with two properties **diameter1** and **diameter2**. There is sub class named **Rectangle** with method **area** to calculate the area of the rectangle. There is another subclass named **Triangle** with method **area** to calculate the area of the triangle.
 
 ```dart
@@ -339,26 +339,26 @@ Area of the rectangle: 200.0
 Area of the triangle: 100.0
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=5eb99c4fb8e32fdfdafb6f1039a6644d" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=5eb99c4fb8e32fdfdafb6f1039a6644d" style="blue" %}}{{% /button %}}
 
 
-### Key Points
+## Key Points
 - Inheritance is used to reuse the code.
 - Inheritance is a concept which is achieved by using the **extends** keyword.
 - Properties and methods of the super class can be accessed by the sub class.
 - Class **Dog** extends class **Animal**{} means Dog is sub class and Animal is super class.
 - The sub class can have its own properties and methods.
 
-### Why Dart Does Not Support Multiple Inheritance?
+## Why Dart Does Not Support Multiple Inheritance?
 Dart does not support multiple inheritance because it can lead to ambiguity. For example, if class **Apple** inherits class **Fruit** and class **Vegetable**, then there may be two methods with the same name **eat**. If the method is called, then which method should be called? This is the reason why Dart does not support multiple inheritance.
 
 
-### What's problem Of Copy Paste Instead Of Inheritance?
+## What's problem Of Copy Paste Instead Of Inheritance?
 If you copy the code from one class to another class, then you will have to maintain the code in both the classes. If you make any changes in one class, then you will have to make the same changes in the other class. This can lead to errors and bugs in the code.
 
-### Does Inheritance Finished If I Learned Extending Class?
+## Does Inheritance Finished If I Learned Extending Class?
 No, there is a lot more to learn about inheritance. You need to learn about **Constructor Inheritance**, **Method Overriding**, **Abstract Class**, **Interface** and **Mixin** etc. You will learn about these concepts in the next chapters.
 
-### Video
+## Video
 Watch our video on inheritance in Dart.
 {{< youtube NBdbNBCD4N4 >}}

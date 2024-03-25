@@ -5,7 +5,7 @@ description = "Operators are used to performing mathematical and logical operati
 keywords = "dart operators, operands in dart, operator in dart, increment operator dart, decrement operator dart, logical operator dart, type test operator in dart"
 +++
 
-### Operators In Dart
+## Operators In Dart
 Operators are used to perform mathematical and logical operations on the variables. Each operation in dart uses a symbol called the operator to denote the type of operation it performs. Before learning operators in the dart, you must understand the following things.
 
 - **Operands** : It represents the data.
@@ -15,7 +15,7 @@ Operators are used to perform mathematical and logical operations on the variabl
 **Note**: Suppose the given expression is 2 + 3. Here 2 and 3 are operands, and `+` is the operator.
 {{% /notice %}}
 
-### Types Of Operators
+## Types Of Operators
 
 *   **Arithmetic Operators**
 *   **Increment and Decrement Operators**
@@ -23,7 +23,7 @@ Operators are used to perform mathematical and logical operations on the variabl
 *   **Logical Operators**
 *   **Type Test Operators**
 
-### Arithmetic Operators
+## Arithmetic Operators
 Arithmetic operators are the most common types of operators. They perform operations like addition, subtraction, multiplication, division, etc.
 |  Operator Symbol   |  Operator Name  | Description  |
 | ----------- | ------------- | ------------- |
@@ -73,9 +73,9 @@ The integer division is 3.
 The modulus is 1.
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=7fad247f0232ae24547085ce86482ea2" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=7fad247f0232ae24547085ce86482ea2" style="blue" %}}{{% /button %}}
 
-### Increment and Decrement Operators
+## Increment and Decrement Operators
 With increment and decrement operators, you can increase and decrease values. If ++ is used at the beginning, then it is a prefix. If it is used at last, then it is postfix.
 
 |  Operator Symbol   |  Operator Name  | Description  |
@@ -117,9 +117,9 @@ The value of num2 is 1
 The value of num2 is 0
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=3ae97956d571ca1cb1d36791ec77497f" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=3ae97956d571ca1cb1d36791ec77497f" style="blue" %}}{{% /button %}}
 
-### Assignment Operators
+## Assignment Operators
 It is used to assign some values to variables. Here, we are assigning 24 to the age variable.
 
 ```dart
@@ -155,9 +155,9 @@ After Division Age is 24.0
 
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=864dbd81b6f4afc305da0ad24edffca2" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=864dbd81b6f4afc305da0ad24edffca2" style="blue" %}}{{% /button %}}
 
-### Relational Operators
+## Relational Operators
 Relational operators are also called comparison operators. They are used to make a comparison.
 
 |  Operator Symbol   |  Operator Name  | Description  |
@@ -193,9 +193,9 @@ false
 true
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=b5b5664beba838e9f90bce2ea7b1f4ec" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=b5b5664beba838e9f90bce2ea7b1f4ec" style="blue" %}}{{% /button %}}
 
-### Logical Operators
+## Logical Operators
 It is used to compare values.
 |  Operator Type   |  Description  |
 | ----------- | ------------- |
@@ -227,10 +227,10 @@ false
 ````
 {{% /expand %}}
 
-{{% button href="https://dartpad.dev/?id=2af3924c048f368bcb18bb12f27d4727" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=2af3924c048f368bcb18bb12f27d4727" style="blue" %}}{{% /button %}}
 
 <!--  Type Test Operator -->
-### Type Test Operators
+## Type Test Operators
 In Dart, type test operators are useful for checking types at runtime.
 |  Operator Symbol   |  Operator Name  | Description  |
 | ----------- | ------------- | ------------- |
@@ -252,4 +252,4 @@ true
 false
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=c2fe395e2e8ce4da7ececa4004f54924" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=c2fe395e2e8ce4da7ececa4004f54924" style="blue" %}}{{% /button %}}

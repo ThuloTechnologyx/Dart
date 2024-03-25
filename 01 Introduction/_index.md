@@ -7,7 +7,7 @@ weight = 1
 +++
 
 
-### **Dart Introduction & Basics**
+## **Dart Introduction & Basics**
 This section will help you to setup environment for dart development and learn the basics of dart. Here you will learn the following topics: 
 
 - [Introduction to Dart,](/introduction-and-basics/introduction-to-dart/)
@@ -20,8 +20,8 @@ This section will help you to setup environment for dart development and learn t
 - [User Input in Dart, and](/introduction-and-basics/user-input-in-dart/)
 - [String in Dart.](/introduction-and-basics/string-in-dart/)
 
-### **Practice Questions**
+## **Practice Questions**
 Complete this section & [practice this question](/introduction-and-basics/questions-for-practice-1/) to improve and test your dart programming knowledge.
 
-### **Accelerate your Workflow**
+## **Accelerate your Workflow**
 Save any snippet in this tutorial to your personal micro-repository with [Pieces for Developers](https://pieces.app/?utm_source=dart-tutorial&utm_medium=banner&utm_campaign=dart-tutorial-website&utm_content=paragraph) to speed up your workflow. Pieces is a centralized productivity suite that leverages AI to help developers save snippets, extract code from screenshots, auto-enrich code, and much more.

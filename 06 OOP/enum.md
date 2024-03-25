@@ -5,10 +5,10 @@ description = "An enum is a special data type that enables for a variable to be 
 keywords = ["enum", "enum in dart", "enum in dart programming", "enum in dart programming language"]
 +++
 
-### Enum In Dart
+## Enum In Dart
 An enum is a special type that represents a fixed number of constant values. An enum is declared using the keyword **enum** followed by the enum's name. 
 
-### Syntax Of Enum In Dart
+## Syntax Of Enum In Dart
 ```dart
 enum enumName {
   constantName1,
@@ -19,7 +19,7 @@ enum enumName {
 }
 ```
 
-### Example 1: Enum In Dart
+## Example 1: Enum In Dart
 In this example below, there is enum type named **days**. It contains seven constants days. The **days** enum type is used in the **main()** function.
 
 ```dart
@@ -66,7 +66,7 @@ Today is Friday.
 ````
 {{% /expand %}}
 
-### Example 2: Enum In Dart
+## Example 2: Enum In Dart
 In this example, there is an enum type named **Gender**. It contains three constants **Male**, **Female**, and **Other**. The **Gender** enum type is used in the **Person** class.
 
 ```dart
@@ -108,7 +108,7 @@ Gender: Gender.Female
 ````
 {{% /expand %}}
 
-### How to Print All Enum Values
+## How to Print All Enum Values
 In this example, there is enum type named **Days**. It contain 7 days. The for loop iterates through all the enum values.
 ```dart
 enum Days { Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday }
@@ -132,17 +132,17 @@ Days.Saturday
 ````
 {{% /expand %}}
 
-### Advantages Of Enum In Dart
+## Advantages Of Enum In Dart
 - It is used to define a set of named constants.
 - Makes your code more readable and maintainable.
 - It makes the code more reusable and makes it easier for developers.
 
-### Characteristics Of Enum
+## Characteristics Of Enum
 - It must contain at least one constant value.
 - Enums are declared outside the class.
 - Used to store a large number of constant values. 
 
-### Enhanced Enum In Dart
+## Enhanced Enum In Dart
 In dart, you can declare enums with members. For example, for your accounting software you can store company types like **Sole Proprietorship**, **Partnership**, **Corporation**, and **Limited Liability Company**. You can declare an enum with members as shown below.
 
 ```dart
@@ -168,6 +168,6 @@ Sole Proprietorship
 ````
 {{% /expand %}}
 
-### Video
+## Video
 Watch our video on enum in Dart.
 {{< youtube W9peo3BzK_Y >}}

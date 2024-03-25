@@ -5,10 +5,10 @@ description = "This guide will teach you how to use where in dart programming la
 keywords = "dart where, where in list dart, dart where in list"
 +++
 
-### Where Dart
+## Where Dart
 You can use where in list, set, map to **filter specific items**. It returns a new list containing all the elements that satisfy the condition. This is also called **Where Filter** in dart. Let's see the syntax below:
 
-### Syntax
+## Syntax
 ```dart
 Iterable<E> where(
 bool test(
@@ -16,7 +16,7 @@ E element
 )
 )
 ```
-### Example 1: Filter Only Odd Number From List
+## Example 1: Filter Only Odd Number From List
 In this example, you will get only odd numbers from a list.
 
 ```dart
@@ -32,9 +32,9 @@ void main() {
 [11, 13]
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=01e3d6f236867c5ce07ef02662c95faa" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=01e3d6f236867c5ce07ef02662c95faa" style="blue" %}}{{% /button %}}
 
-### Example 2: Filter Days Start With S
+## Example 2: Filter Days Start With S
 In this example, you will get only days that start with alphabet s.
 ```dart
 void main() {
@@ -60,9 +60,9 @@ void main() {
 [Sunday, Saturday]
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=70a93a34519688c4ab4b46cc6aeb5561" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=70a93a34519688c4ab4b46cc6aeb5561" style="blue" %}}{{% /button %}}
 
-### Example 3: Where Filter In Map
+## Example 3: Where Filter In Map
 In this example, you will get students whose marks are greater or equal to 32. 
 
 ```dart
@@ -86,5 +86,5 @@ void main() {
 {mark: 32.0, harry: 88.0, raj: 69.0}
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=36aca6332932402e7581f125cdb1e669" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=36aca6332932402e7581f125cdb1e669" style="blue" %}}{{% /button %}}
 

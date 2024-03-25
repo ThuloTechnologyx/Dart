@@ -13,7 +13,7 @@ Currently, Dart is one of the most preferred languages to learn. A solid underst
 If you know languages like **C**, **Java**, **C#**, **Javascript**, etc. Dart will be easy for you. This tutorial covers Dart from basic to advance.
 
 {{% notice info %}}
-###**Note**: The concept you will learn here will give you a solid understanding of Dart and improve your coding career.
+##**Note**: The concept you will learn here will give you a solid understanding of Dart and improve your coding career.
 {{% /notice %}}
 
 

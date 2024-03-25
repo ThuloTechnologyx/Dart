@@ -5,7 +5,7 @@ keywords = "generate random number in dart, dart random number between range, ge
 description = "In this tutorial, you will learn how to generate random number in dart programming. You will learn to generate random number in range, list of random number."
 +++
 
-### How To Generate Random Numbers In Dart
+## How To Generate Random Numbers In Dart
 [![targets](/images/pieces/note-banner.png)](https://pieces.app/?utm_source=dart-tutorial&utm_medium=banner&utm_campaign=dart-tutorial-website&utm_content=note)
 This example shows how to generate random numbers from **0 - 9** and also **1 to 10**. After watching this example, you can generate a random number between your choices.
 
@@ -36,14 +36,14 @@ Generated Random Number Between 1 to 10: 4
 - The **random.nextInt(10)+1** function is used to generate random number between
 **1 to 10** in which the value is stored in a variable **randomNumber2**.
 
-### Generate Random Number Between Any Number
+## Generate Random Number Between Any Number
 Use this formula to generate a random number between any numbers in the dart. 
 ```dart
  min + Random().nextInt((max + 1) - min);
 ```
 [![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=0242468a6e)
 
-### Example: Random Number In Dart Between 10 - 20.
+## Example: Random Number In Dart Between 10 - 20.
 This program generates random numbers between 10 to 20.
 ```dart
 import 'dart:math';

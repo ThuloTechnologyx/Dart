@@ -6,7 +6,7 @@ description = "Learn switch case in dart. A Switch case is used to execute the c
 keywords = "switch case dart, dart switch case, switch case in dart, string switch case dart, enum switch case dart"
 +++
 
-### Switch Case In Dart
+## Switch Case In Dart
 [![targets](/images/pieces/note-banner.png)](https://pieces.app/?utm_source=dart-tutorial&utm_medium=banner&utm_campaign=dart-tutorial-website&utm_content=note)
 In this tutorial, you will learn to use **dart switch case** to control your program's flow. A Switch case is used to execute the code block based on the condition. 
 
@@ -38,10 +38,10 @@ switch(expression) {
 {{% /notice %}}
 
 
-### Replace If Else If With Switch In Dart
+## Replace If Else If With Switch In Dart
 Here you can see the same program using **if else if** and **switch** in dart.  
 
-### Example Using If Else If
+## Example Using If Else If
 This example prints the day name based on the numeric day of the week using a if else if.
 ```dart
 void main(){
@@ -79,9 +79,9 @@ else if (dayOfWeek == 7) {
 Day is Thursday.
 ````
 {{% /expand %}} 
-{{% button href="https://dartpad.dev/?id=47306bb3550def46d9cc25b5b46b8753" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=47306bb3550def46d9cc25b5b46b8753" style="blue" %}}{{% /button %}}
 
-### Example Of Switch Statement
+## Example Of Switch Statement
 This example prints the day name based on the numeric day of the week using a switch case.
 ```dart
 void main() {
@@ -121,13 +121,13 @@ void main() {
 Day is Thursday.
 ````
 {{% /expand %}} 
-{{% button href="https://dartpad.dev/?id=4f69e4fd09f10849546f8b7ef8bafa28" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=4f69e4fd09f10849546f8b7ef8bafa28" style="blue" %}}{{% /button %}}
 {{% notice info %}}
 **Note**:  The syntax of switch statements is cleaner and much easier to read and write.
 {{% /notice %}}
 
 
-### Switch Case On Strings
+## Switch Case On Strings
 You can also use a switch case with strings. This program prints information based on weather value.
 ```dart
 void main() {
@@ -157,12 +157,12 @@ void main() {
 Please bring umbrella.
 ````
 {{% /expand %}} 
-{{% button href="https://dartpad.dev/?id=c177885042b281c34faddb7eeac6a5b7" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=c177885042b281c34faddb7eeac6a5b7" style="blue" %}}{{% /button %}}
 
-### Switch Case On Enum
+## Switch Case On Enum
 An **[enum](/object-oriented-programming/enum-in-dart/)** or enumeration is used for defining value according to you. You can define your own type with a finite number of options. Here is the syntax for defining enum.
 
-### Syntax
+## Syntax
 ```dart
 enum enum_name { 
   constant_value1, 
@@ -172,7 +172,7 @@ enum enum_name {
 ```
 [![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=da2844828a)
 
-### Example of Switch Using Enum In Dart
+## Example of Switch Using Enum In Dart
 Enum plays well with switch statements. Let's see an example using enum.
 
 ```dart
@@ -206,4 +206,4 @@ void main() {
 Please bring umbrella.
 ````
 {{% /expand %}} 
-{{% button href="https://dartpad.dev/?id=c93ad2410bf834284d40de28ca5a72ab" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=c93ad2410bf834284d40de28ca5a72ab" style="blue" %}}{{% /button %}}

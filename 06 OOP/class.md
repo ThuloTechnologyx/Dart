@@ -5,14 +5,14 @@ description = "In this section, you will learn about the class in Dart programmi
 keywords = "dart class, class in dart, oop class in dart, object oriented programming class in dart, dart oops"
 +++
 
-### Class In Dart 
+## Class In Dart 
 In object-oriented programming, a class is a blueprint for creating objects. A class defines the properties and methods that an object will have. For example, a class called **Dog** might have properties like **breed**, **color** and methods like **bark**, **run**.
 
-### Declaring Class In Dart
+## Declaring Class In Dart
 You can declare a class in dart using the **class** keyword followed by class name and braces {}. It's a good habit to write class name in **PascalCase**. For example, **Employee**, **Student**, **QuizBrain**, etc.
 
 
-### Syntax
+## Syntax
 ```dart
 class ClassName {
 // properties or fields
@@ -27,7 +27,7 @@ In the above syntax:
 - **Properties** are used to store the data. It is also known as **fields** or **attributes**.
 - **Functions** are used to perform the operations. It is also known as **methods**.
 
-### Example 1: Declaring A Class In Dart
+## Example 1: Declaring A Class In Dart
 In this example below, there is class **Animal** with three properties: **name**, **numberOfLegs**, and **lifeSpan**. The class also has a method called **display**, which prints out the values of the three properties. 
 
 ```dart
@@ -47,7 +47,7 @@ class Animal {
 **Note: This program will not print anything** because we have not created any object of the class. You will learn about the  [object](/object-oriented-programming/object-in-dart/) later. The **?** is used for null safety. You will also learn about [null safety](/null-safety/) later.
 {{% /notice %}}
 
-### Example 2: Declaring A Person Class In Dart
+## Example 2: Declaring A Person Class In Dart
 In this example below, there is class **Person** with four properties: **name**, **phone**, **isMarried**, and **age**. The class also has a method called **displayInfo**, which prints out the values of the four properties.
 
 ```dart
@@ -66,7 +66,7 @@ class Person {
 }
 ```
 
-### Example 3: Declaring Area Class In Dart
+## Example 3: Declaring Area Class In Dart
 In this example below, there is class **Area** with two properties: **length** and **breadth**. The class also has a method called **calculateArea**, which calculates the area of the rectangle.
 
 ```dart
@@ -80,7 +80,7 @@ class Area {
 }
 ```
 
-### Example 4: Declaring A Student Class In Dart
+## Example 4: Declaring A Student Class In Dart
 In this example below, there is class **Student** with three properties: **name**, **age**, and **grade**. The class also has a method called **displayInfo**, which prints out the values of the three properties. 
 
 ```dart
@@ -96,7 +96,7 @@ class Student {
   }
 }
 ```
-### Key Points
+## Key Points
 - The class is declared using the **class** keyword.
 - The class is a blueprint for creating objects.
 - The class body consists of properties and methods.
@@ -104,7 +104,7 @@ class Student {
 - The methods are also known as behaviors, or member functions.
 
 
-### Challenge
+## Challenge
 Create a class **Book** with three properties: **name**, **author**, and **prize**. Also, create a method called **display**, which prints out the values of the three properties.
 
 {{% notice info %}}

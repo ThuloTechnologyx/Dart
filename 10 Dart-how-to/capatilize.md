@@ -6,7 +6,7 @@ description = "In this tutorial, you will learn to capatilize first character of
 +++
 
 
-### How To Capitalize First Letter Of String In Dart
+## How To Capitalize First Letter Of String In Dart
 If you want to capitalize the first letter of a String in Dart, you can use the following code. 
 
 ```dart
@@ -21,10 +21,10 @@ void main() {
 Capitalized first letter of String: Hello world
 ```
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=b35aec750e198f194c863c1ddf76de2e" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=b35aec750e198f194c863c1ddf76de2e" style="blue" %}}{{% /button %}}
 
 
-### Example 2: To Capitalize First Letter Of String Using Extension Method
+## Example 2: To Capitalize First Letter Of String Using Extension Method
 In this example, we will use the extension method to capitalize the first letter of a String. You can learn more about extension method [here](/useful-information/extension-in-dart/).
 
 ```dart
@@ -45,4 +45,4 @@ void main() {
 Capitalized first letter of String: Hello world
 ```
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=2f875354ca442561d549a8f1c40ac17f" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=2f875354ca442561d549a8f1c40ac17f" style="blue" %}}{{% /button %}}

@@ -5,10 +5,10 @@ description = "In this section, you will learn how to delete file in dart progra
 keywords = "delete file in dart, delete file in dart programming, delete file in dart programming language"
 +++
 
-### Introduction
+## Introduction
 In this section, you will learn how to delete file in dart programming language using **File** class and **deleteSync()** method.
 
-### Delete File In Dart
+## Delete File In Dart
 Assume that you have a file named **test.txt** in the same directory of your dart program. Now, let's delete it.
 
 ```dart
@@ -34,7 +34,7 @@ File deleted.
 **Note**: If you try to delete a file that does not exist, then it will throw an exception.
 {{% /notice %}}
 
-### Delete File If Exists
+## Delete File If Exists
 You can use **File.existsSync()** method to check if a file exists or not. If it exists, then you can delete it.
 
 ```dart

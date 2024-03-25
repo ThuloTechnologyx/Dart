@@ -5,10 +5,10 @@ description = "Setter is a method that is used to update the value of a private 
 keywords = ["setter", "setter in dart", "setter in dart programming", "setter in dart programming language"]
 +++
 
-### Setter In Dart
+## Setter In Dart
 **Setter** is used to set the value of a property. It is mostly used to update a **private property's** value. Setter provide explicit write access to an object properties.
 
-### Syntax
+## Syntax
 ```dart
 set property_name (value) {
   // Setter body
@@ -19,7 +19,7 @@ set property_name (value) {
 **Note:** Instead of writing { } after the property name, you can also write **=>** (fat arrow) after the property name.
 {{% /notice %}}
 
-### Example 1: Setter In Dart
+## Example 1: Setter In Dart
 In this example below, there is a class named **NoteBook**. The class has two private properties **_name** and **_prize**. There are two setters **name** and **prize** to update the value of the properties. There is also a method **display** to display the value of the properties.
 
 ```dart
@@ -58,7 +58,7 @@ Name: Dell
 Price: 500.0
 ````
 {{% /expand %}}    
-{{% button href="https://dartpad.dev/?id=18a42e026ec7d75665059143aabdb47e" style="blue" %}}Run Online{{% /button %}}   
+{{% button href="https://dartpad.dev/?id=18a42e026ec7d75665059143aabdb47e" style="blue" %}}{{% /button %}}   
 
 
 {{% notice info %}}
@@ -66,7 +66,7 @@ Price: 500.0
 {{% /notice %}}
 
 
-### Example 2: Setter In Dart With Data Validation
+## Example 2: Setter In Dart With Data Validation
 In this example, there is a class named **NoteBook**. The class has two private properties **_name** and **_prize**. If the value of **_prize** is less than 0, we will throw an exception. There are also two setters **name** and **prize** to update the value of the properties. The class also has a method **display()** to display the values of the properties.
 
 ```dart
@@ -110,13 +110,13 @@ Name: Dell
 Price: 500.0
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=142623e9802c21916b61bcd2b1445f62" style="blue" %}}Run Online{{% /button %}}   
+{{% button href="https://dartpad.dev/?id=142623e9802c21916b61bcd2b1445f62" style="blue" %}}{{% /button %}}   
 
 {{% notice info %}}
 **Note**: It is generally best to not allow the user to set the value of a field directly. Instead, you should provide a setter method that can validate the value before setting it. This is very important when working on large and complex programs.
 {{% /notice %}}
 
-### Example 3: Setter In Dart 
+## Example 3: Setter In Dart 
 In this example, there is a class named **Student**. The class has two private properties **_name** and **_classnumber**. We will also create two setters **name** and **classnumber** to update the value of the properties. The **classnumber** setter will only accept a value between 1 and 12. The class also has a method **display()** to display the values of the properties.
 
 ```dart
@@ -162,17 +162,17 @@ Name: John
 Class Number: 10
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=4a6112fd2bef9da8c7642ae31c19a8f9" style="blue" %}}Run Online{{% /button %}}   
+{{% button href="https://dartpad.dev/?id=4a6112fd2bef9da8c7642ae31c19a8f9" style="blue" %}}{{% /button %}}   
 
 
-### Why Is Setter Important?
+## Why Is Setter Important?
 - It is used to set the value of a private property.
 - It is also used for data validation.
 - It gives you better control over the data.
 
-### Video
+## Video
 Watch our video on setters in Dart.
 {{< youtube j4PwccC77Y4 >}}
 
-### Challenge
+## Challenge
 Try to create a class named **University** with two private properties **_name** and **_year**. The class will also have two setters **name** and **year** to update the value of the properties. The **year** setter will only accept a value between 1900 and 2023. Also, create a method **display()** to display the values of the properties.

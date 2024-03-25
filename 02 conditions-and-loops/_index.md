@@ -7,7 +7,7 @@ description = "Learn about control flow, for loop, while loop, do-while loop, fo
 keywords = "conditions in dart, loops in dart, switch case in dart, break in dart, continue in dart, ternary operator in dart, exception handling in dart, learn dart"
 +++
 
-### **Dart Conditions and Loops**
+## **Dart Conditions and Loops**
 This section will help you to learn about the Conditions and Loops used in Dart. Here you will learn the following topics:
 
 - [Conditions in Dart,](/conditions-and-loops/conditions-in-dart/)
@@ -22,5 +22,5 @@ This section will help you to learn about the Conditions and Loops used in Dart.
 - [Exception Handling in Dart.](/conditions-and-loops/exception_handeling-in-dart/)
 
 
-### **Practice Questions**
+## **Practice Questions**
 Complete this section & [practice this question](/conditions-and-loops/questions-for-practice-2/) to improve and test your dart programming knowledge.

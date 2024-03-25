@@ -55,7 +55,7 @@ Height is 5.9
 Married Status is false
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=1112525ad54f10c89a1f768460928e9e" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=1112525ad54f10c89a1f768460928e9e" style="blue" %}}{{% /button %}}
 
 {{% notice info %}}
 **Note**: Always use the descriptive variable name. Don’t use a variable name like a, b, c because this will make your code more complex.
@@ -87,7 +87,7 @@ print("Value of PI is $pi");
 Constant variables can't be assigned a value.
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=1e3d4c1b325e6f22ad17747a54b452b7" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=1e3d4c1b325e6f22ad17747a54b452b7" style="blue" %}}{{% /button %}}
 
 ## Naming Convention For Variables In Dart
 It is a good habit to follow the naming convention. In Dart Variables, the variable name should start with lower-case, and every second word’s first letter will be upper-case like num1, fullName, isMarried, etc. Technically, this naming convention is called **lowerCamelCase**. 

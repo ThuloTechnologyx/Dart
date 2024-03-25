@@ -4,19 +4,19 @@ weight = 9
 description = "A constant constructor is a constructor that creates a constant object. A constant object is an object whose value cannot be changed. A constant constructor is declared using the keyword const."
 keywords = ["constant constructor", "constant constructor in dart", "constant constructor in dart programming", "constant constructor in dart programming language"]
 +++
-### Constant Constructor In Dart
+## Constant Constructor In Dart
 **Constant constructor** is a constructor that creates a constant object. A constant object is an object whose value cannot be changed. A constant constructor is declared using the keyword **const**.
 
 {{% notice info %}}
 **Note**: **Constant Constructor** is used to create a object whose value cannot be changed. It Improves the performance of the program.
 {{% /notice %}}
 
-### Rule For Declaring Constant Constructor In Dart
+## Rule For Declaring Constant Constructor In Dart
 - All properties of the class must be final.
 - It does not have any body.
 - Only class containing **const** constructor is initialized using the **const** keyword.
 
-### Example 1: Constant Constructor In Dart
+## Example 1: Constant Constructor In Dart
 In this example below, there is a class **Point** with two final properties: **x** and **y**. The class also has a constant constructor that initializes the two properties. The class also has a method called **display**, which prints out the values of the two properties.
   
 ```dart
@@ -53,13 +53,13 @@ The p3 hash code is: 745146896
 The p4 hash code is: 225789186
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=04b3629042b50722521b0861cfe84350" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=04b3629042b50722521b0861cfe84350" style="blue" %}}{{% /button %}}
 
 {{% notice info %}}
 **Note**: Here p1 and p2 has the same hash code. This is because p1 and p2 are constant objects. The hash code of a constant object is the same. This is because the hash code of a constant object is computed at compile time. The hash code of a non-constant object is computed at run time. This is why p3 and p4 have different hash code.
 {{% /notice %}}
 
-### Example 2: Constant Constructor In Dart
+## Example 2: Constant Constructor In Dart
 In this example below, there is a class **Student** with three properties: **name**, **age**, and **rollNumber**. The class has one constant constructor. The constructor is used to initialize the values of the three properties. We also have an object of the class **Student** called **student**.
 
 ```dart
@@ -89,10 +89,10 @@ Age: 20
 Roll Number: 1
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=96fdfc13454ea8f20294b30f7d5591d0" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=96fdfc13454ea8f20294b30f7d5591d0" style="blue" %}}{{% /button %}}
 
 
-### Example 3: Constant Constructor With Named Parameters In Dart
+## Example 3: Constant Constructor With Named Parameters In Dart
 In this example below, there is a class **Car** with three properties: **name**, **model**, and **prize**. The class has one constructor. The constructor is used to initialize the values of the three properties. We also have an object of the class **Car** called **car**.
 
 ```dart
@@ -123,14 +123,14 @@ Model: X5
 Prize: 50000
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=d22af330d6178bff98cdd445dc8089c7" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=d22af330d6178bff98cdd445dc8089c7" style="blue" %}}{{% /button %}}
 
-### Benefits Of Constant Constructor In Dart
+## Benefits Of Constant Constructor In Dart
 - Improves the performance of the program.
 
-### Challenge
+## Challenge
 Create a class **Customer** with three properties: **name**, **age**, and **phone**. The class should have one constant constructor. The constructor should initialize the values of the three properties. Create an object of the class **Customer** and print the values of the three properties.
 
-### Video
+## Video
 Watch our video on constant constructor in Dart.
 {{< youtube xTwjLfMMUxM >}}

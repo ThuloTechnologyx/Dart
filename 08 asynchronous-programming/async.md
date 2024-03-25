@@ -19,7 +19,7 @@ The `async` and `await` keywords both provide a declarative way to define an asy
 - To define an Asynchronous function, add async before the function body.
 - The await keyword work only in the async function.
 
-### Example: Synchronous function
+## Example: Synchronous function
 
 ```dart
 void main() {
@@ -48,7 +48,7 @@ Instance of '_Future<String>'
 
 {{% /expand %}}
 
-### Example: Asynchronous function
+## Example: Asynchronous function
 
 ```dart
 void main() {
@@ -78,11 +78,11 @@ Hello
 {{% /expand %}}
 In the above example, `async` handles the states of the program where any part of the program can be executed.`async` always comes with `await` because `await` holds the part of the program until the rest of the program executed.
 
-### Handling Errors
+## Handling Errors
 
 You can handle errors in the dart async function by using `try-catch`. You can write try-catch code the same way you write synchronous code.
 
-### Example
+## Example
 
 ```dart
 main() {
@@ -122,7 +122,7 @@ In the above example, `try-catch` handles the exception that could come after th
 Note: We cannot perform an asynchronous operation from a synchronous function.
 {{% /notice %}}
 
-### Important Terms
+## Important Terms
 
 - **async** The async keyword can be used before a function's body to indicate that a function is asynchronous.
 - **async function** Functions marked with the async keyword are known as async functions.

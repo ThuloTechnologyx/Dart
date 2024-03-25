@@ -7,10 +7,10 @@ keywords = "Loops in dart, for loop in dart, for loop in dart, while loop in dar
 +++
 
 
-### While Loop
+## While Loop
 In **while loop**, the loop's body will run until and unless the condition is true. You must write conditions first before statements. This loop checks conditions on every iteration. If the condition is true, the code inside {} is executed, if the condition is false, then the loop stops. 
 
-### Syntax
+## Syntax
 ```dart
 while(condition){  
        //statement(s);  
@@ -23,7 +23,7 @@ while(condition){
 - The condition is re-checked until the condition is false.
 - When the condition is false, the loop stops.
 
-### Example 1: To Print 1 To 10 Using While Loop 
+## Example 1: To Print 1 To 10 Using While Loop 
 This program prints 1 to 10 using while loop.
 ```dart
 void main() {
@@ -49,12 +49,12 @@ void main() {
 10
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=bb416850916a0cbb9583db9df249f724" style="blue" %}}Run Online{{% /button %}}    
+{{% button href="https://dartpad.dev/?id=bb416850916a0cbb9583db9df249f724" style="blue" %}}{{% /button %}}    
 {{% notice info %}}
 **Note**: Do not forget to increase the variable used in the condition. Otherwise, the loop will never end and becomes an infinite loop.
 {{% /notice %}}
 
-### Example 2: To Print 10 To 1 Using While Loop 
+## Example 2: To Print 10 To 1 Using While Loop 
 This program prints 10 to 1 using while loop.
 
 ```dart
@@ -80,10 +80,10 @@ void main() {
 1
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=e4746918a3950ee10e718224f044d0bd" style="blue" %}}Run Online{{% /button %}}    
+{{% button href="https://dartpad.dev/?id=e4746918a3950ee10e718224f044d0bd" style="blue" %}}{{% /button %}}    
 
 
-### Example 3: Display Sum of n Natural Numbers Using While Loop
+## Example 3: Display Sum of n Natural Numbers Using While Loop
 Here, the value of the total is 0 initially. Then, the while loop is iterated from **i = 1 to 100**. In each iteration,  **i** is added to the total, and the value of **i** is increased by 1. Result is **1+2+3+....+99+100**.
 ```dart
 void main(){
@@ -106,9 +106,9 @@ void main(){
 Total is 5050
 ````
 {{% /expand %}} 
-{{% button href="https://dartpad.dev/?id=f266b4ae5649fc7ba8f94ef0405de86d" style="blue" %}}Run Online{{% /button %}}    
+{{% button href="https://dartpad.dev/?id=f266b4ae5649fc7ba8f94ef0405de86d" style="blue" %}}{{% /button %}}    
 
-### Example 4: Display Even Numbers Between 50 to 100 Using While Loop
+## Example 4: Display Even Numbers Between 50 to 100 Using While Loop
 This program will print even numbers between 50 to 100 using while loop.
 ```dart
 void main(){
@@ -151,4 +151,4 @@ void main(){
 100
 ````
 {{% /expand %}} 
-{{% button href="https://dartpad.dev/?id=053f6df18f066714f0f1d993e0b35e01" style="blue" %}}Run Online{{% /button %}}    
+{{% button href="https://dartpad.dev/?id=053f6df18f066714f0f1d993e0b35e01" style="blue" %}}{{% /button %}}    

@@ -5,14 +5,14 @@ description = "An interface is a contract that defines the capabilities of a cla
 keywords = ["interface", "implement in dart", "interface in dart", "interface in dart programming", "interface in dart programming language"]
 +++
 
-### Introduction
+## Introduction
 In this section, you will learn the dart interface and how to implement an interface with the help of examples. In Dart, every class is **implicit interface**. Before learning about the interface in dart, you should have a basic understanding of the [class and objects](/object-oriented-programming/class-and-objects-in-dart/), [inheritance](/object-oriented-programming/inheritance-in-dart/) and [abstract class](/object-oriented-programming/abstract-class-in-dart/) in Dart.
 
-### Interface In Dart
+## Interface In Dart
 **An interface defines a syntax that a class must follow**. It is a contract that defines the capabilities of a class. It is used to achieve abstraction in the Dart programming language. When you implement an interface, you must implement all the properties and methods defined in the interface. Keyword **implements** is used to implement an interface.
 
 
-### Syntax Of Interface In Dart
+## Syntax Of Interface In Dart
 ```dart
 class InterfaceName {
   // code
@@ -23,7 +23,7 @@ class ClassName implements InterfaceName {
 }
 ```
 
-### Declaring Interface In Dart
+## Declaring Interface In Dart
 In dart there is no keyword **interface** but you can use **class** or **abstract class** to declare an interface. All classes implicitly define an interface. Mostly **abstract class** is used to declare an interface.
 ```dart
 // creating an interface using abstract class
@@ -33,7 +33,7 @@ abstract class Person {
 }
 ```
 
-### Implementing Interface In Dart
+## Implementing Interface In Dart
 You must use the **implements** keyword to implement an interface. The class that implements an interface must implement all the methods and properties of the interface.
 ```dart
 class Student implements Person {
@@ -51,7 +51,7 @@ class Student implements Person {
 }
 ```
 
-### Example 1: Interface In Dart
+## Example 1: Interface In Dart
 In this example below, there is an interface **Laptop** with two methods **turnOn()** and **turnOff()**. The class **MacBook** implements the interface and overrides the methods to print the message.
 
 ```dart
@@ -93,13 +93,13 @@ MacBook turned on
 MacBook turned off
 ```
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=36d6447655a6cfc0a4adca9a9039415e" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=36d6447655a6cfc0a4adca9a9039415e" style="blue" %}}{{% /button %}}
 
 {{% notice info %}}
 **Note:** Most of the time, **abstract class** is used instead of **concrete class** to declare an interface.
 {{% /notice %}}
 
-### Example 2: Interface In Dart
+## Example 2: Interface In Dart
 In this example below, there is an abstract class named **Vehicle**. The **Vehicle** class has two abstract methods **start()** and **stop()**. The **Car** class implements the **Vehicle** interface. The **Car** class has to implement the **start()** and **stop()** methods.
 
 ```dart
@@ -134,20 +134,20 @@ Car started
 Car stopped
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=b5f1e2ea9aa3f9e2b754c5338d187120" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=b5f1e2ea9aa3f9e2b754c5338d187120" style="blue" %}}{{% /button %}}
 
 
-### Multiple Inheritance In Dart
+## Multiple Inheritance In Dart
 **Multiple inheritance** means a class can inherit from more than one class. In dart, you can't inherit from more than one class. But you can implement multiple interfaces in a class.
 
-### Syntax For Implementing Multiple Interfaces In Dart
+## Syntax For Implementing Multiple Interfaces In Dart
 ```dart
 class ClassName implements Interface1, Interface2, Interface3 {
   // code
 }
 ```
 
-### Example 3: Interface In Dart With Multiple Interfaces
+## Example 3: Interface In Dart With Multiple Interfaces
 In this example below, two abstract classes are named **Area** and **Perimeter**. The **Area** class has an abstract method **area()** and the **Perimeter** class has an abstract method **perimeter()**. The **Shape** class implements both the **Area** and **Perimeter** classes. The **Shape** class has to implement the **area()** and **perimeter()** methods.
 
 ```dart
@@ -192,9 +192,9 @@ The area of the rectangle is 200
 The perimeter of the rectangle is 60
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=861d11ee01db9d75074c9131336c433c" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=861d11ee01db9d75074c9131336c433c" style="blue" %}}{{% /button %}}
 
-### Example 4: Interface In Dart 
+## Example 4: Interface In Dart 
 In this example below, there is an abstract class named **Person**. The **Person** class has one property **name** and two abstract methods **run** and **walk**. The **Student** class implements the **Person** interface. The **Student** class has to implement the **run** and **walk** methods.
 ```dart
 // abstract class as interface
@@ -238,9 +238,9 @@ Student is running
 Student is walking
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=913898dca4c3b9b9164174226c0d8171" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=913898dca4c3b9b9164174226c0d8171" style="blue" %}}{{% /button %}}
 
-### Example 5: Interface In Dart
+## Example 5: Interface In Dart
 In this example below, there is abstract class named **CalculateTotal** and **CalculateAverage**. The **CalculateTotal** class has an abstract method **total()** and the **CalculateAverage** class has an abstract method **average()**. The **Student** class implements both the **CalculateTotal** and **CalculateAverage** classes. The **Student** class has to implement the **total()** and **average()** methods.
 
 ```dart
@@ -283,10 +283,10 @@ Total marks: 240
 Average marks: 80.0
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=5c4f39c8d2a527b5fa656b7a728839e5" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=5c4f39c8d2a527b5fa656b7a728839e5" style="blue" %}}{{% /button %}}
 
 
-### Difference Between Extends & Implements
+## Difference Between Extends & Implements
 | extends | implements |
 | --- | --- |
 | Used to inherit a class in another class. | Used to inherit a class as an interface in another class.
@@ -298,7 +298,7 @@ Average marks: 80.0
 | Sub-class need not to override the fields of the superclass. | Subclass must override the fields of the interface.
 
 
-### Key Points To Remember
+## Key Points To Remember
 - An interface is a contract that defines the capabilities of a class.
 - Dart has no keyword interface, but you can use class or abstract class to declare an interface.
 - Use abstract class to declare an interface.
@@ -306,6 +306,6 @@ Average marks: 80.0
 - Using the interface, you can achieve multiple inheritance in Dart.
 - It is used to achieve abstraction.
 
-### Video
+## Video
 Watch our video on interface in Dart.
 {{< youtube cYjINC3naTM >}}

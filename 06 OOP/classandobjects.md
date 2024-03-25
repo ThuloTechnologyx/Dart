@@ -2,17 +2,17 @@
 title = "Class and Objects in Dart"
 weight = 4
 +++
-### What is Class
+## What is Class
 [![targets](/images/pieces/note-banner.png)](https://pieces.app/?utm_source=dart-tutorial&utm_medium=banner&utm_campaign=dart-tutorial-website&utm_content=note)
 
 A class is a blueprint for creating objects. A class defines the properties and methods that an object will have. If you want to learn more about class in Dart, you can read [class in dart](/object-oriented-programming/class-in-dart/).
 
 
-### What is Object
+## What is Object
 An object is an instance of a class. You can create multiple objects of the same class. If you want to learn more about an object in Dart, you can read [object in dart](/object-oriented-programming/object-in-dart/).
 
 
-### Example Of A Class & Object In Dart
+## Example Of A Class & Object In Dart
 In this example below there is class **Animal** with three properties: **name**, **numberOfLegs**, and **lifeSpan**. The class also has a method called **display**, which prints out the values of the three properties.
 
 ```dart
@@ -46,10 +46,10 @@ Number of Legs: 4.
 Life Span: 10.
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=6790148500eb3c6c8004609c5904dd9d" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=6790148500eb3c6c8004609c5904dd9d" style="blue" %}}{{% /button %}}
 
 
-### Example 2: Find Area Of Ractangle Using Class and Objects
+## Example 2: Find Area Of Ractangle Using Class and Objects
 In this example below there is class **Rectangle** with two properties: **length** and **breadth**. The class also has a method called **area**, which calculates the area of the rectangle.
 
 ```dart
@@ -84,7 +84,7 @@ void main(){
 Area of rectangle is 50.
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=8617b7c594d4a18fdb658a89b896d820" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=8617b7c594d4a18fdb658a89b896d820" style="blue" %}}{{% /button %}}
 
 
 
@@ -93,7 +93,7 @@ Area of rectangle is 50.
 {{% /notice %}}
 
 
-### Example 3: Find Simple Interest Using Class and Objects
+## Example 3: Find Simple Interest Using Class and Objects
 In this example below there is class **SimpleInterest** with three properties: **principal**, **rate**, and **time**. The class also has a method called **interest**, which calculates the simple interest.
 
 ```dart
@@ -129,8 +129,8 @@ void main(){
 Simple Interest is 200.
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=f83769f0cc599b7364318f00fc66dea9" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=f83769f0cc599b7364318f00fc66dea9" style="blue" %}}{{% /button %}}
 
 
-### Challenge
+## Challenge
 Create class Home with properties **name**, **address**, **numberOfRooms**. Create a method called **display** which prints out the values of the properties. Create an object of the class **Home** and set the values of the properties. Call the method **display** to print out the values of the properties.

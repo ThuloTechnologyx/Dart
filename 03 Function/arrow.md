@@ -5,10 +5,10 @@ keywords = "dart arrow function, dart functions, how to use arrow function in da
 description = "In this tutorial, you will learn the arrow function in dart with examples and how to use the arrow function."
 +++
 
-### Arrow Function In Dart
+## Arrow Function In Dart
 Dart has a special syntax for the function body, which is only one line. The arrow function is represented by **=>** symbol. It is a shorthand syntax for any function that has only one expression.
 
-### Syntax 
+## Syntax 
 The syntax for the dart arrow function.
 
 ```dart
@@ -20,7 +20,7 @@ returnType functionName(parameters...) => expression;
 {{% /notice %}}
 
 
-### Example 1: Simple Interest Without Arrow Function
+## Example 1: Simple Interest Without Arrow Function
 This program finds simple interest without using the arrow function.
 ```dart
 // function that calculate interest
@@ -43,10 +43,10 @@ void main() {
 Simple interest is 450.0
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=b56428cb81ead44765f9f7ca17109b78" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=b56428cb81ead44765f9f7ca17109b78" style="blue" %}}{{% /button %}}
 
 
-### Example 2: Simple Interest With Arrow Function
+## Example 2: Simple Interest With Arrow Function
 This program finds simple interest using the arrow function.
 ```dart
 // arrow function that calculate interest
@@ -68,9 +68,9 @@ void main() {
 Simple interest is 450.0
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=5a2af3ecadc0d798d9e04026d9cb0245" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=5a2af3ecadc0d798d9e04026d9cb0245" style="blue" %}}{{% /button %}}
 
-### Example 3: Simple Calculation Using Arrow Function
+## Example 3: Simple Calculation Using Arrow Function
 This program finds the sum, difference, multiplication, and division of two numbers using the arrow function.
 ```dart
 int add(int n1, int n2) => n1 + n2;
@@ -96,5 +96,5 @@ The mul is 3000
 The div is 3.3333333333333335
 ````
 {{% /expand %}}
-{{% button href="https://dartpad.dev/?id=7330e7ec5cce424afe8f89ad921c4469" style="blue" %}}Run Online{{% /button %}}
+{{% button href="https://dartpad.dev/?id=7330e7ec5cce424afe8f89ad921c4469" style="blue" %}}{{% /button %}}
 
