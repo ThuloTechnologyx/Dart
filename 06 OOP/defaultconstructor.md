@@ -83,7 +83,3 @@ Grade: A
 
 ## Challenge
 Try to create a class **Person** with two properties: **name**, and **planet**. Create a default constructor to initialize the values of the **planet** to earth. Create an object of the class **Person**, set the name to "Your Name" and print the name and planet.
-
-## Video
-Watch our video on default constructor in Dart.
-{{< youtube dnfXQ6Tbx_g >}}
