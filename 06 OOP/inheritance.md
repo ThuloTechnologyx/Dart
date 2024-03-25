@@ -358,7 +358,3 @@ If you copy the code from one class to another class, then you will have to main
 
 ## Does Inheritance Finished If I Learned Extending Class?
 No, there is a lot more to learn about inheritance. You need to learn about **Constructor Inheritance**, **Method Overriding**, **Abstract Class**, **Interface** and **Mixin** etc. You will learn about these concepts in the next chapters.
-
-## Video
-Watch our video on inheritance in Dart.
-{{< youtube NBdbNBCD4N4 >}}
