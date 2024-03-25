@@ -180,7 +180,3 @@ My Dog is Running at speed 25.0
 - You can't define a constructor.
 - You can't extend a mixin.
 - You can't create an object of mixin.
-
-## Video
-Watch our video on mixin in Dart.
-{{< youtube cM5-oUWeM30 >}}
