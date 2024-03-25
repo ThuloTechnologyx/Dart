@@ -263,7 +263,3 @@ Bio: None provided
 {{% notice info %}}
 **Note**: Sometimes you heard word like **NNBD**. It is **Non-Nullable By Default**, which means you can't assign null to a variable by default.
 {{% /notice %}}
-
-## Video
-Watch our video on the null safety in Dart.
-{{< youtube 1hWjIYd4cBY >}}
