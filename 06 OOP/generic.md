@@ -287,7 +287,3 @@ Total Area of Region: 514
 ## Advantages of Generics
 - It solve the problem of type safety.
 - It helps to reuse our code.
-
-## Video
-Watch our video on generics in Dart.
-{{< youtube Te6M8gVqKv4 >}}
