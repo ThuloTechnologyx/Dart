@@ -228,7 +228,3 @@ LateInitializationError: Field 'name' has already been initialized.
 ````
 {{% /expand %}}
 {{% button href="https://dartpad.dev/?id=f5544cbe648f3ce048e15b40f935606b" style="blue" %}}{{% /button %}}
-
-## Video
-Watch our video on the late keyword in Dart.
-{{< youtube B3_c7Mz7jNA >}}
