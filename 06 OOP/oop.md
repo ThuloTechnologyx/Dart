@@ -37,8 +37,3 @@ Note: The main purpose of OOP is to break complex problems into smaller objects.
 -  OOP is a way of thinking about programming that differs from traditional procedural programming.
 -  OOP can make code more modular, flexible, and extensible.
 -  OOP can help you to understand better and solve problems.
-
-
-## Video
-Watch our video on OOP in Dart.
-{{< youtube 9ZnP4ynTkhk >}}
