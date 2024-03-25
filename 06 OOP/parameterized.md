@@ -119,7 +119,3 @@ Age: 0
 {{% notice info %}}
 **Note**: In parameterized constructor, at the time of object creation, you must pass the parameters through the constructor which initialize the variables value, avoiding the null values.
 {{% /notice %}}
-
-## Video
-Watch our video on parameterized constructor in Dart.
-{{< youtube -iK2e5A5zBs >}}
