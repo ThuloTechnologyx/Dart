@@ -5,7 +5,7 @@ description = "Dart is a general purpose programming language to build apps fast
 keywords = "what is dart programming, why you should learn dart programming, which programming is used by flutter, dart introduction, dart programming introduction"
 +++
 
-### Dart
+## Dart
 Dart is a client-optimized, object-oriented, modern programming language to build apps fast for many platforms like android, iOS, web, desktop, etc. Client optimized means optimized for crafting a beautiful user interface and high-quality experiences. Google developed Dart as a programming language.
 
 Currently, Dart is one of the most preferred languages to learn. A solid understanding of Dart is necessary to develop high-quality apps with flutter. According to [Github](https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-languages-loved), **Dart is one of the most loved programming languages in the world.**
@@ -13,35 +13,40 @@ Currently, Dart is one of the most preferred languages to learn. A solid underst
 If you know languages like **C**, **Java**, **C#**, **Javascript**, etc. Dart will be easy for you. This tutorial covers Dart from basic to advance.
 
 {{% notice info %}}
-**Note**: The concept you will learn here will give you a solid understanding of Dart and improve your coding career.
+###**Note**: The concept you will learn here will give you a solid understanding of Dart and improve your coding career.
 {{% /notice %}}
 
-### Dart Features
+
+## Dart Features
 - Free and open-source.
 - Object-oriented programming language.
 - Used to develop android, iOS, web, and desktop apps fast.
 - Can compile to either native code or javascript.
 - Offers modern programming features like null safety and asynchronous programming.
-- You can even use Dart for servers and backend.  
+- You can even use Dart for servers and backend.
 
-### Difference Between Dart & Flutter
+
+## Difference Between Dart & Flutter
 - **Dart** is a client optimized, object-oriented programming language. It is popular nowadays because of flutter. It is difficult to build complete apps only using Dart because you have to manage many things yourself.
 
 - **Flutter** is a framework that uses dart programming language. With the help of flutter, you can build apps for android, iOS, web, desktop, etc. The framework contains ready-made tools to make apps faster.
 
 
-### Which Is The Best Code Editor For Dart Programming
+## Which Is The Best Code Editor For Dart Programming
 The best code editor is VS Code if you want to run the dart program from a computer or laptop. You can download the dart extension from VS Code and start coding. You will learn more about [installing dart](/introduction-and-basics/dart-install/) in the next topic. You can also use [DartPad](https://dartpad.dev) to run simple dart programs without installing anything.
 
-### Dart History
+
+## Dart History
 - Google developed Dart in 2011 as an alternative to javascript.
 - Dart 1.0 was released on November 14, 2013.
 - Dart 2.0 was released in August 2018.
 - Dart 3.0 was released in May 2023.
 - Dart gained popularity in recent days because of flutter. 
 
-### Basic Programming Terms
+
+## Basic Programming Terms
 Important words that you often hear while learning programming languages.
+
 
 **Statements:**
 A statement is a command that tells a computer to do something. In Dart, you can end most statements with a semicolon **;**.
@@ -77,7 +82,8 @@ A compiler is a computer program that translates the high-level programming lang
 The Syntax is a programming language's pattern or rules that give the concept to code. 
 
 
-### Key Points
+
+## Key Points
 - Dart is a free and open-source programming language. You don't need to pay any money to run dart programs.
 - Dart is a platform-independent language and supports almost every operating system such as windows, mac, and Linux.
 - Dart is an object-oriented programming language and supports all oops features such as encapsulation, inheritance, polymorphism, interface, etc.
