@@ -149,6 +149,3 @@ Audi Car Started.
 ## Challenge
 Create a class Camera with properties: **name**, **color**, **megapixel**. Create a method called **display** which prints out the values of the three properties. Create two objects of the class Camera and call the method display.
 
-## Video
-Watch our video on parameterized constructor in Dart.
-{{< youtube gFliT0oeddo >}}
