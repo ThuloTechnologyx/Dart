@@ -323,8 +323,3 @@ Here **It** means **factory constructor**
 
 ## Question For Practice
 Create an interface called **Bottle** and add a method to it called **open()**. Create a class called **CokeBottle** and implement the Bottle and print the message **"Coke bottle is opened"**. Add a factory constructor to **Bottle** and return the object of **CokeBottle**. Instantiate **CokeBottle** using the factory constructor and call the **open()** on the object.
-
-## Video
-Watch our video on factory constructor in Dart.
-{{< youtube KhpDsTzBslk >}}
-[![targets](/images/pieces/powertip-banner.png)](https://pieces.app/?utm_source=dart-tutorial&utm_medium=banner&utm_campaign=dart-tutorial-website&utm_content=powertip)
