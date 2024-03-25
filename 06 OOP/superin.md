@@ -190,7 +190,3 @@ Laptop display
 ## Key Points To Remember
 - The **super** keyword is used to access the parent class members.
 - The **super** keyword is used to call the method of the parent class.
-
-## Video
-Watch our video on super in Dart.
-{{< youtube dMC1B1ljZV4 >}}
