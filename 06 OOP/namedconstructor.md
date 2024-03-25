@@ -193,7 +193,3 @@ Person 2 age: 30
 
 ## Challenge
 Try to create a class **Car** with three properties **name**, **color**, and **prize** and one method **display** which prints out the values of the three properties. Create a constructor, which takes all 3 parameters.  Create a named constructor which takes two parameters **name** and **color**. Create an object of the class from both the constructors and call the method **display**.
-
-## Video
-Watch our video on default constructor in Dart.
-{{< youtube 3-096Ixpa50 >}}
