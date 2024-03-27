@@ -190,5 +190,4 @@ void main()
 ````plaintext
 Num 1 is greater: i.e 1200
 ````
-{{% /expand %}}
 
