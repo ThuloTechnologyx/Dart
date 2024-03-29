@@ -6,14 +6,14 @@ description = "In this tutorial, you will learn to convert string to int in dart
 +++
 
 ## Convert String To Int In Dart
-[![targets](/images/pieces/note-banner.png)](https://pieces.app/?utm_source=dart-tutorial&utm_medium=banner&utm_campaign=dart-tutorial-website&utm_content=note)
+
 
 The String is the textual representation of data, whereas int is a numeric representation without a decimal point. While coding in must of the case, you need to convert data from one type to another type. In dart, you can convert String to int by using the **int.parse() method**.
 
 ```dart
 int.parse("String");
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=af004aa592)
+
 
 You can replace **String** with any numeric value and convert String to int. Make sure you  have numeric value there. To know more see the example below.
 
@@ -28,7 +28,7 @@ print("Type of value is ${value.runtimeType}");
 print("Type of numeric value is ${numericValue.runtimeType}");
 }
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=c7f34e9a03)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
@@ -52,7 +52,7 @@ int sum = num1 + num2;
 print("Type sum is $sum");
 }
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=161d42981d)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
@@ -82,7 +82,7 @@ print("Something went wrong.");
 
 }
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=111d45b730)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
