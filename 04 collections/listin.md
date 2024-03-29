@@ -21,7 +21,7 @@ List<String> names = ["Raj", "John", "Rocky"];
 // Mixed List
 var mixed = [10, "John", 18.8];
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=32b640a36f)
+
 
 
      
@@ -37,7 +37,7 @@ void main() {
    print(list);  
 }
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=e7a44a85c8)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
@@ -61,7 +61,7 @@ void main() {
    print(list1);  
 }  
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=d8fb4ca664)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
@@ -86,7 +86,7 @@ void main() {
 }
 
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=fc5842bc4a)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
@@ -112,7 +112,7 @@ void main() {
 }
 
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=1ca640a8bc)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
@@ -130,7 +130,7 @@ void main(){
    print(names.length);
  }
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=bf6549aed2)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
@@ -154,7 +154,7 @@ void main(){
    print(names);
 }
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=01c444b564)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
@@ -196,7 +196,7 @@ void main() {
    print("Last element of the List is: ${drinks.last}");
 }  
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=229748b290)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
@@ -220,7 +220,7 @@ void main() {
    
 }  
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=9be14281db)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
@@ -241,7 +241,7 @@ void main() {
    print("List in reverse: ${drinks.reversed}");
 }  
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=40494ab0bd)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
@@ -271,7 +271,7 @@ void main() {
     print(evenList);  
 }  
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=116547b186)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
@@ -293,7 +293,7 @@ void main() {
 }
 
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=e8e6459393)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
@@ -315,7 +315,7 @@ void main() {
 }
 
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=8e6f4b80ac)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
@@ -337,7 +337,7 @@ void main() {
 }
   
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=f9bc4c9894)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
@@ -359,7 +359,7 @@ void main() {
 }
 
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=f429409f39)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
@@ -388,7 +388,7 @@ void main() {
   print("List after removing element : ${list}");
 }
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=4edf408fce)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
@@ -409,7 +409,7 @@ void main() {
   print("List after removing element : ${list}");
 }
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=899047a705)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
@@ -432,7 +432,7 @@ void main() {
 }
 
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=040d42a95e)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
@@ -452,7 +452,7 @@ void main() {
   print("List after removing range element:${list}");
 }
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=a13a4bbe93)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
@@ -471,7 +471,7 @@ void main() {
   list.forEach((n) => print(n));
 }
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=c5ca47af9c)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
@@ -496,7 +496,7 @@ void main() {
 }
 
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=49814e9ca8)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
@@ -517,7 +517,7 @@ void main() {
   print(allNames);
 }
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=575a438905)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
@@ -537,7 +537,7 @@ void main() {
 }
  
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=13784e9ada)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
@@ -557,7 +557,7 @@ List<int> even = numbers.where((number)=> number.isEven).toList();
 print(even);
 }
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=6258429268)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
