@@ -5,7 +5,7 @@ description = "In this section, you will learn about  datetime in Dart programmi
 keywords = "dart datetime, datetime in dart, date time in dart, date time in dart programming, dart date time"
 +++
 ## DateTime In Dart
-[![targets](/images/pieces/note-banner.png)](https://pieces.app/?utm_source=dart-tutorial&utm_medium=banner&utm_campaign=dart-tutorial-website&utm_content=note)
+
 
 Date and time are often used in our day-to-day activities. As a programmer you need to know how to find a date and time? How to format date? and how to perform different calculation in date? 
 
@@ -18,7 +18,7 @@ void main() {
   print(DateTime.now());
 }
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=683d418b24)
+
 
 
 {{% expand "Show Output" "false" %}}
@@ -43,7 +43,7 @@ void main() {
   print("Second is " + datetime.second.toString());
 }
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=28e24181fc)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
@@ -66,7 +66,7 @@ void main() {
   print(datetime);
 }
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=82024e80b0)
+
 
 
 {{% expand "Show Output" "false" %}}
@@ -88,7 +88,7 @@ void main() {
   print("Day is " + myConvertedDate.day.toString());
 }
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=33ae44b531)
+
 
 
 {{% expand "Show Output" "false" %}}
@@ -123,7 +123,7 @@ void main() {
 }
 
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=fa99499493)
+
 
 
 {{% expand "Show Output" "false" %}}
@@ -145,7 +145,7 @@ void main() {
 }
 
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=7f084980c6)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
@@ -171,7 +171,7 @@ void main() {
 }
 
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=ccd5468586)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
@@ -220,7 +220,7 @@ void main() {
 }
 
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=80b44f960a)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
