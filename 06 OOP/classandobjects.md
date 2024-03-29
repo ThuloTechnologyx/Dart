@@ -3,7 +3,7 @@ title = "Class and Objects in Dart"
 weight = 4
 +++
 ## What is Class
-[![targets](/images/pieces/note-banner.png)](https://pieces.app/?utm_source=dart-tutorial&utm_medium=banner&utm_campaign=dart-tutorial-website&utm_content=note)
+
 
 A class is a blueprint for creating objects. A class defines the properties and methods that an object will have. If you want to learn more about class in Dart, you can read [class in dart](/object-oriented-programming/class-in-dart/).
 
@@ -37,7 +37,7 @@ void main(){
   animal.display();
 }
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=74fb43b01f)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
@@ -76,7 +76,7 @@ void main(){
   print("Area of rectangle is ${rectangle.area()}.");
 }
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=ebb14c9391)
+
 
 
 {{% expand "Show Output" "false" %}}
@@ -121,7 +121,7 @@ void main(){
   print("Simple Interest is ${simpleInterest.interest()}.");
 }
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=e5d442a162)
+
 
 
 {{% expand "Show Output" "false" %}}
