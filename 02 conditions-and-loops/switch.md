@@ -7,7 +7,7 @@ keywords = "switch case dart, dart switch case, switch case in dart, string swit
 +++
 
 ## Switch Case In Dart
-[![targets](/images/pieces/note-banner.png)](https://pieces.app/?utm_source=dart-tutorial&utm_medium=banner&utm_campaign=dart-tutorial-website&utm_content=note)
+
 In this tutorial, you will learn to use **dart switch case** to control your program's flow. A Switch case is used to execute the code block based on the condition. 
 
 ```dart
@@ -25,7 +25,7 @@ switch(expression) {
        // default statements
 }
 ``` 
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=92f24e8c38)
+
 
 **How does switch-case statement work in dart**
 - The **expression** is evaluated once and compared with each case value.   
@@ -72,7 +72,7 @@ else if (dayOfWeek == 7) {
  }
 
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=bdd64ba0a8)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
@@ -114,7 +114,7 @@ void main() {
   }
 }
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=13f549adcc)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
@@ -150,7 +150,7 @@ void main() {
   }
 }
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=a7f244a276)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
@@ -170,7 +170,7 @@ enum enum_name {
   constant_value3 
   }
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=da2844828a)
+
 
 ## Example of Switch Using Enum In Dart
 Enum plays well with switch statements. Let's see an example using enum.
@@ -199,7 +199,7 @@ void main() {
   }
 }
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=5ed84ea12d)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
