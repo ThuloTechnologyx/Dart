@@ -43,7 +43,7 @@ void main() {
   print("The p4 hash code is: ${p4.hashCode}");
 }
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=0e3e429174)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
@@ -80,7 +80,7 @@ void main() {
   print("Roll Number: ${student.rollNumber}");
 }
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=44c34d8e0f)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
@@ -114,7 +114,7 @@ void main() {
 }
 
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=263b4496ec)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
