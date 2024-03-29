@@ -6,7 +6,7 @@ description = "In this section, you will get practice questions on OOP in Dart p
 keywords = ["dart practice questions", "practice questions on oop in dart", "practice questions on oop in dart programming", "practice questions on oop in dart programming language"]
 +++
 
-### Questions For Practice 6
+## OOP Questions
 1. Write a dart program to create a class Laptop with properties [id, name, ram] and create 3 objects of it and print all details.
 2. Write a dart program to create a class House with properties [id, name, prize]. Create a constructor of it and create 3 objects of it. Add them to the list and print all details.
 3. Write a dart program to create an enum class for gender [male, female, others] and print all values.
