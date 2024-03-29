@@ -5,7 +5,7 @@ description = "In this section, you will learn about named constructor in dart p
 keywords = ["named constructor", "named constructor in dart", "named constructor in dart programming", "named constructor in dart programming language"]
 +++
 ## Named Constructor In Dart
-[![targets](/images/pieces/note-banner.png)](https://pieces.app/?utm_source=dart-tutorial&utm_medium=banner&utm_campaign=dart-tutorial-website&utm_content=note)
+
 In most programming languages like java, c++, c#, etc., we can create multiple constructors with the same name. But in Dart, this is not possible. Well, there is a way. We can create multiple constructors with the same name using **named constructors**.
 
 {{% notice info %}}
@@ -43,7 +43,7 @@ void main() {
   print("Roll Number: ${student.rollNumber}");
 }
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=f9544bb84b)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
@@ -82,7 +82,7 @@ void main() {
   mobile2.displayMobileDetails();
 }
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=359a4d82c2)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
@@ -129,7 +129,7 @@ void main(){
   print("Name: ${animal2.name}");
 }
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=1b6f459385)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
@@ -179,7 +179,7 @@ void main() {
 }
 
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=115948a934)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
