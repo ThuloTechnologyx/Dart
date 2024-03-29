@@ -5,10 +5,10 @@ description = "In this section, you will learn about Dart interview questions an
 keywords = "dart interview questions, dart interview questions and answers, dart interview questions for experienced"
 +++
 
-### Dart Interview Questions
+## Dart Interview Questions
 Here are the most frequently asked Dart interview questions. These Dart interview questions are suitable for both freshers and experienced programmers. These Dart interview questions are designed to test your knowledge of Dart programming language.
 
-### Basic Dart Interview Questions
+## Basic Dart Interview Questions
 - What is Dart?
 - What inspired you to pursue a career in dart programming?
 - What are your favorite aspects of dart programming?
