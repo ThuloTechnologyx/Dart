@@ -7,7 +7,7 @@ description = "Dart programming language practice question for conditions and lo
 keywords = "dart conditions practice questions, dart loops practice questions"
 +++
 
-### Question For Practice 2
+## Condition Questions
 1. Write a dart program to check if the number is odd or even.
 2. Write a dart program to check whether a character is a vowel or consonant.
 3. Write a dart program to check whether a number is positive, negative, or zero.
