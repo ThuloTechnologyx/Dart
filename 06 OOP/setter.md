@@ -170,9 +170,7 @@ Class Number: 10
 - It is also used for data validation.
 - It gives you better control over the data.
 
-## Video
-Watch our video on setters in Dart.
-{{< youtube j4PwccC77Y4 >}}
+
 
 ## Challenge
 Try to create a class named **University** with two private properties **_name** and **_year**. The class will also have two setters **name** and **year** to update the value of the properties. The **year** setter will only accept a value between 1900 and 2023. Also, create a method **display()** to display the values of the properties.
