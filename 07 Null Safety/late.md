@@ -6,7 +6,7 @@ keywords = "late keyword in dart, late keyword in dart example, late keyword in 
 +++
 
 ## Late Keyword In Dart
-[![targets](/images/pieces/note-banner.png)](https://pieces.app/?utm_source=dart-tutorial&utm_medium=banner&utm_campaign=dart-tutorial-website&utm_content=note)
+
 In dart, **late** keyword is used to declare a variable or field that will be initialized at a later time. It is used to declare a **non-nullable** variable that is not initialized at the time of declaration. 
 
 ## Example 1: Late Keyword In Dart
@@ -21,7 +21,7 @@ void main() {
   print(name);
 }
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=7c524a84ec)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
@@ -59,7 +59,7 @@ void main() {
   person.greet();
 }
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=b0b94db901)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
@@ -97,7 +97,7 @@ void main() {
   print(value);
 }
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=e134469a05)
+
 
 Guess the output before clicking on the **Show Output** button. If you remove the **late** keyword from the **value** variable, the **provideCountry** function will be called when the **value** variable is declared.
 
@@ -140,7 +140,7 @@ void main() {
 }
 
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=715e49be7a)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
@@ -177,7 +177,7 @@ void main() {
   print("End");
 }
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=b5f14bb4cf)
+
 
 
 {{% expand "Show Output" "false" %}}
@@ -218,7 +218,7 @@ void main() {
   student.name = "Doe"; // Error
 }
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=4d624486f4)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
