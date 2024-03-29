@@ -8,7 +8,7 @@ description = "In this section, you will learn about factory constructors in Dar
 In this section, you will learn about factory constructors with examples. Before learning about factory constructors, you should have a basic understanding of [class and objects](/object-oriented-programming/class-and-objects-in-dart/), [constructor](/object-oriented-programming/constructor-in-dart/), [abstract class](/object-oriented-programming/abstract-class-in-dart/), [interface](/object-oriented-programming/interface-in-dart/) and [inheritance](/object-oriented-programming/inheritance-in-dart/) in Dart.
 
 ## Factory Constructor In Dart
-[![targets](/images/pieces/note-banner.png)](https://pieces.app/?utm_source=dart-tutorial&utm_medium=banner&utm_campaign=dart-tutorial-website&utm_content=note)
+
 All of the constructors that you have learned until now are **generative constructors**. Dart also provides a special type of constructor called a **factory constructor**. 
 
 A **factory constructor** gives more flexibility to create an object. Generative constructors only create an instance of the class. But, the factory constructor can return an instance of the **class or even subclass**. It is also used to return the **cached instance** of the class.
@@ -25,7 +25,7 @@ class ClassName {
   }
 }
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=d70b4b9737)
+
 
 ## Rules For Factory Constructors
 - Factory constructor must return an instance of the **class** or **sub-class**.
@@ -59,7 +59,7 @@ void main() {
   print("Area is: ${area2.area}");
 }
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=ebdc40bcd4)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
@@ -103,7 +103,7 @@ void main() {
   print("Area is: ${area2.area}");
 }
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=72864dbd82)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
@@ -148,7 +148,7 @@ void main() {
   print("From factory constructor: ${person2.firstName} ${person2.lastName}");
 }
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=94bc4e924e)
+
 
 In the main method, two objects are created, one using the **generative/normal constructor** and the other using the **factory constructor**. 
 
@@ -208,7 +208,7 @@ void main() {
   shape2.draw();
 }
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=7e3f46b82c)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
@@ -259,7 +259,7 @@ void main() {
   print("Person3 name is : ${person3.name} with hashcode ${person3.hashCode}");
 }
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=2ce4409163)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
@@ -297,7 +297,7 @@ void main() {
 }
  
 ```
-[![targets](/images/pieces/save-this-snippet-button.svg)](https://snippets.pieces.cloud/?p=babd45ae7c)
+
 
 {{% expand "Show Output" "false" %}}
 ````plaintext
